@@ -1,0 +1,304 @@
+base_warehouse_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/wh/pageInfo
+    data: { "orderByColumnList": null,"agreementName": null,"agreementCode": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取仓库列表
+
+base_warehouse_inside:
+  - url: http://192.168.111.232:17777/wms_232/sys/cougnyMoveRule/pageInfo
+    data: { "orderByColumnList": null,"ruleCode": null,"cougnyMoveType": null,"taskMode": null,"formZoneId": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取库内移动规则
+
+base_owner_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/owner/pageInfo
+    data: { "orderByColumnList": null,"ownerCode": null,"ownerName": null,"ownerShortName": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取货主列表
+
+base_warehouse_location:
+  - url: http://192.168.111.232:17777/wms_232/wh/whArea/pageInfo
+    data: { "orderByColumnList": null,"deepPath": "CK","page": 1,"limit": 50,"whId": 1 }
+    method: post
+    title: 获取库位列表
+
+base_warehouse_temporary:
+  - url: http://192.168.111.232:17777/wms_232/tm/whStagingArea/pageInfo
+    data: { "orderByColumnList": null,"stagingAreaCode": null,"stagingAreaType": null,"stagingAreaStatus": null,"wmsBusinessType": null,"stagingAreaCodeFm": null,"stagingAreaCodeTo": null,"isEnable": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取暂存区列表
+
+base_user_data:
+  - url: http://192.168.111.232:17777/wms_232/org/user/pageInfo
+    data: { "userName": null,"userNo": null,"department": null,"isEnable": null,"gspPostList": null,"orderByColumnList": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取部门用户
+
+
+base_department_data:
+  - url: http://192.168.111.232:17777/wms_232/org/org/queryTree
+    data: { }
+    method: post
+    title: 获取部门资料
+
+
+base_person_data:
+  - url: http://192.168.111.232:17777/wms_232/org/jobPostStaffing/queryTree
+    data: { }
+    method: post
+    title: 获取人员安排
+
+
+base_department_relationship_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/ownerOrgMapping/pageInfo
+    data: { "orderByColumnList": null,"ownerId": null,"oneOrgId": null,"twoOrgId": null,"threeOrgId": null,"createTimeStart": null,"createTimeEnd": null,"updateTimeStart": null,"updateTimeEnd": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取部门业务关系列表
+
+
+base_customer_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/customer/pageInfo
+    data: { "orderByColumnList": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取客户资料列表
+
+base_supplier_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/supplier/pageInfo
+    data: { "orderByColumnList": null,"supplierCode": null,"supplierName": null,"ownerId": null,"supplierType": null,"isEnable": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取供应商资料列表
+
+base_shop_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/store/pageInfo
+    data: { "orderByColumnList": null,"storeCode": null,"storeName": null,"storeType": null,"origSys": null,"mnemonicCode": null,"isEnable": null,"origPlatform": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取店铺资料列表
+
+base_product_data:
+  - url: http://192.168.111.232:17777/wms_232//tm/mfg/pageInfo
+    data: { "orderByColumnList": null,"mfgCode": null,"mfgName": null,"isEnable": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取生产商资料列表
+
+base_management_data:
+  - url: http://192.168.111.232:17777/wms_232/sku/skuCategory/queryById/1770467616444928
+    data: { }
+    method: post
+    title: 获取经营范围列表
+
+base_commodity_data:
+  - url: http://192.168.111.232:17777/wms_232/sku/sku/pageInfo
+    data: { "productFormType": "YP","idStr": null,"mnemonicCode": null,"ownerId": null,"skuCategoryIds": null,"skuCodes": null,"mfgId": null,"permitHolder": null,"maintenanceType": null,"isEnable": null,"isDrugSuperCode": null,"isValidity": null,"isDoubleCheck": null,"isFirstCamp": null,"hasAnaleptic": null,"tempControlList": null,"drugForm": null,"page": 1,"limit": 50,"orderByColumnList": null }
+    method: post
+    title: 获取商品资料列表
+
+base_supervise_data:
+  - url: http://192.168.111.232:17777/wms_232/sku/skuRegulatory/pageInfo
+    data: { "orderByColumnList": null,"skuCode": null,"skuName": null,"mnemonicCode": null,"mfg": null,"originCountry": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取商品监管列表
+
+base_warehouse_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/container/pageInfo
+    data: { "orderByColumnList": null,"sortable": true,"containerCode": null,"containerName": null,"containerTypeCode": null,"containerStatus": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取仓储容器列表
+
+base_consignment_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/carrier/pageInfo
+    data: { "orderByColumnList": null,"carrierCode": null,"id": null,"mnemonicCode": null,"carrierType": null,"isEnable": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取托运公司列表
+
+base_erp_consignment_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/erpCarrier/pageInfo
+    data: { "orderByColumnList": null,"carrierCode": null,"carrierName": null,"isMaintain": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取erp承运商列表
+
+base_deliver_data:
+  - url: http://192.168.111.232:17777/wms_232/delivery/driver/pageInfo
+    data: { "orderByColumnList": null,"carrierCode": null,"carrierId": null,"driverName": null,"isEnable": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取司机列表
+
+base_car_data:
+  - url: http://192.168.111.232:17777/wms_232/equipment/vehicle/pageInfo
+    data: { "orderByColumnList": null,"plateNumber": null,"carrierId": null,"driverId": null,"vehicleType": null,"brandModel": null,"vehicleStatus": null,"page": 1,"limit": 50 }
+    method: post
+    title: 获取车辆列表
+
+base_create_customer:
+  - url: http://192.168.111.232:17777/wms_232/tm/customer/add
+    data: { "customerCode": "autotestnew23","mnemonicCode": "auto1","shortName": "自动化测试新增客户23","customerName": "自动化测试新增客户23","origSys": "WMS","isEnable": 0,"customerCategory": "YPPFQY","isWholeOrderBatch": 0,"isPrintDrugTestReport": 0,"isPrintPassWithGoods": 0,"isWholeBoxBatch": 0,"isTwoVoteSystem": 0,"isPrintPackageLabel": 0,"dtList": [ ] }
+    method: post
+    title: 新增客户接口
+
+base_create_supplier:
+  - url: http://192.168.111.232:17777/wms_232/tm/supplier/add
+    data: {"supplierCode":"autotest1","mnemonicCode":"auto1","shortName":"自动化测试供应商1","supplierName":"自动化测试供应商1","origSys":"WMS","origCode":"au1","isEnable":0,"supplierType":"SYKH","detailList":[]}
+    method: post
+    title: 新增供应商接口
+
+base_create_shop:
+  - url: http://192.168.111.232:17777/wms_232/tm/store/add
+    data: {"provinceCode":"370000","cityCode":"370200","storeCode":"autotest1","shortName":"自动化测试店铺","storeName":"自动化测试店铺","storeType":"MD","origSys":"WMS","origCompanyCode":"autotest","origCode":"autotest","mnemonicCode":"autotest","contactName":"测试人员","contactTel":"18660282391","contactAddr":"山东省青岛市市北区","contactPhone":"18660282391","contactMailbox":"111111@qq.com","origPlatform":"9998","provinceId":"15","cityId":"135","areaId":"1226","isEnable":0,"clientCode":"test","electronFaceSheetPlatformType":"TBPT","remark":"自动化测试新增","detailList":[]}
+    method: post
+    title: 新增店铺接口
+
+base_create_product_company:
+  - url: http://192.168.111.232:17777/wms_232//tm/mfg/add
+    data: {"isEnable":1,"mfgCode":"autotest1","mnemonicCode":"autotest1","shortName":"自动化测试生产企业","mfgName":"自动化测试生产企业","origSys":"WMS","contactName":"测试人员","contactTel":"18660282391","contactAddr":"山东省青岛市市北区昆明路","contactFax":"88888888","contactPhone":"18660282391","contactMailbox":"111111@qq.com","detailList":[]}
+    method: post
+    title: 新增生产企业接口
+
+base_create_commodity_range:
+  - url: http://192.168.111.232:17777/wms_232/sku/skuCategory/add
+    data: {"origSys":"WMS","origCode":"WMS","parentId":-1,"parentName":"","origCompanyCode":"ZHQC","categoryCode":"autotest","categoryName":"autotest","remark":"自动化测试"}
+    method: post
+    title: 新增经营范围接口
+
+base_delete_commodity_range:
+  - url: http://192.168.111.232:17777/wms_232/sku/skuCategory/delete/
+    data: {}
+    method: post
+    title: 删除经营范围接口
+
+base_create_commodity:
+  - url: http://192.168.111.232:17777/wms_232/sku/sku/add
+    data: {"origSys":"WMS","mfg":"江中集团有限公司","skuCode":"autotest","skuName":"自动化新增测试商品","tradeName":"自动化新增测试商品","mnemonicCode":"zdh","ownerId":"1770570116141568","barcode":"12312312312312","productFormType":"YP","spec":"50g","skuCategoryId":1770467433878016,"mainUnit":"123","brandName":"1","drugForm":"1","mfgId":"1838237298561536","originCountry":"1111111111111","permitHolder":"11","routeOfAdministration":"111","isCombination":0,"validityDay":1,"scatteredProperties":"ZJ","isEnable":0,"incomeTaxRates":11,"theOutputRate":11,"tempCondition":"11","tempControl":"CW","tempMin":1,"tempMax":1,"taxCode":"1","netWeight":1,"midPackQty":1,"perQty":1,"length":1,"vol":1,"width":1,"height":1,"grossWeight":1,"qtyStandard":"1","packingVOList":[],"gmpList":[],"approvalNumberList":[],"warmValidityDay":1,"limitSaleDay":1,"imageReqList":[],"packingReqList":[],"certificateReqList":[],"gspReq":{"isFirstCamp":0,"drugForm":"1"},"zjAbc":"A","abc":"A","isHeteromorphicProduct":0,"isLimitMidPack":0,"isFirstCamp":0,"isValuables":0,"ephedrine":0,"hasAnaleptic":0,"detailList":[]}
+    method: post
+    title: 新增商品接口
+
+base_delete_commodity:
+  - url: http://192.168.111.232:17777/wms_232/sku/sku/batchDelete
+    method: post
+    title: 删除商品接口
+
+base_commodity_details:
+  - url: http://192.168.111.232:17777/wms_232/sku/sku/initUpdate/1867818750628352
+    method: post
+    data: {}
+    title: 商品详情接口
+
+base_update_details:
+  - url: http://192.168.111.232:17777/wms_232/sku/sku/initUpdate/1867818750628352
+    method: post
+    data: {}
+    title: 商品编辑接口
+
+base_commodity_supervise_details:
+  - url: http://192.168.111.232:17777/wms_232/sku/skuRegulatory/initUpdate/1870783763681792
+    method: post
+    data: {}
+    title: 商品监管查看接口
+
+base_commodity_supervise_update:
+  - url: http://192.168.111.232:17777/wms_232/sku/skuRegulatory/initUpdate/1870783763681792
+    method: post
+    data: {}
+    title: 商品监管编辑接口
+
+base_create_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/container/add
+    method: post
+    data: {"latticeNum":1,"containerStatus":10,"containerStatusName":"空闲","containerCode":"autotest","containerName":"自动化测试容器","containerBarcode":"autotest","containerTypeCode":"BZQ","length":1,"width":1,"height":1,"volume":1,"weight":1,"isEnable":0,"remark":"111111","rfid":"1111","detailList":[]}
+    title: 新增仓储容器接口
+
+base_delete_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/container/batchDelete/
+    method: post
+    title: 删除仓储容器接口
+
+base_create_slide:
+  - url: http://192.168.111.232:17777/wms_232/tm/innerReviewSortingSlideway/add
+    method: post
+    data: {"slidewayCode":"at","slidewayCategory":"CLFHHD","slidewayType":"PT","carrierIdsList":["1771520756486656"],"isEnable":0,"takeDeliveryMethod":"TY","customerCategoryList":["YPPFQY"],"orderTypeList":["FHD"],"orderTypes":"FHD","whZoneIdList":[1773127985943040],"whZoneIds":"1773127985943040","maxTaskNum":10,"remark":"autotest","customerCategories":"YPPFQY","detailList":[]}
+    title: 新增滑道接口
+
+base_delete_slide:
+  - url: http://192.168.111.232:17777/wms_232/tm/innerReviewSortingSlideway/batchDelete/
+    method: post
+    title: 删除滑道接口
+
+base_create_pick_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/pickDesk/add
+    method: post
+    data: {"pickDeskNo":"zt","pickDeskType":"CK","pickDeskCategory":"ZJ","isEnable":0,"equipmentAddr":"1111","equipmentIp":"111","deviceIdentity":0,"sowContainerId":"1804040030999040","slidewayCode":"","dtList":[]}
+    title: 新增拣货台接口
+
+base_delete_pick_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/pickDesk/batchDelete/
+    method: post
+    title: 删除拣货台接口
+
+base_create_work_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/recheckDesk/add
+    method: post
+    data: {"recheckDeskCode":"at","recheckDeskName":"at","isEnable":0,"recheckDeskType":"10","slidewayIdList":["1800126753182208"],"pickingRejectsId":"1800126975693312","detailList":[]}
+    title: 新增作业台接口
+
+base_delete_work_container:
+  - url: http://192.168.111.232:17777/wms_232/tm/recheckDesk/batchDelete/
+    method: post
+    title: 删除作业台接口
+
+base_create_consignment:
+  - url: http://192.168.111.232:17777/wms_232/tm/carrier/batchAddOrUpdate
+    method: post
+    data: {"whIds":[1],"isEnable":1,"carrierCode":"at","shortName":"at","fullName":"at","mnemonicCode":"at","contactName":"at","contactTel":"18660282391","carrierTel":"18660282391","carrierAddr":"青岛市市北区昆明路","carrierType":"TY","businessTypeArray":["TO_B"],"imageReqList":[]}
+    title: 新增托运公司档案接口
+
+base_create_erp_consignment:
+  - url: http://192.168.111.232:17777/wms_232/tm/erpCarrier/add
+    method: post
+    data: {"status":1,"origSys":"CQ_ERP","origCode":"at","carrierCode":"at","carrierName":"at","contactName":"at","contactTel":"18660282391","contactAddr":"山东省青岛市市北区","carrierType":"WL","carrierPlatform":"TB","wmsCarrierId":"1771520756486656"}
+    title: 新增erp承运商接口
+
+base_create_road_data:
+  - url: http://192.168.111.232:17777/wms_232/delivery/directionRoute/add
+    method: post
+    data: {"isEnableName":"启用","isEnable":1,"showFlag":0,"origcityName":"青岛市","showFlagPro":0,"objectiveCityName":"青岛市","directionDirection":"QDSN","routeCode":"at","routeName":"at","radiationRange":100,"originProvince":"370000","originCity":"370200","originPosition":"市北区","originLongitude":120.3814044873353,"originDimension":36.09344959486011,"objectiveProvince":"370000","objectiveCity":"370200","objectivePosition":"市北区","objectiveLongitude":120.3814044873353,"objectiveDimension":36.09344959486011,"dtList":[{"isEnableName":"启用","isEnable":1,"channelCityName":"青岛市","channelProvince":"370000","channelCity":"370200","channelPosition":"市北区","channelLongitude":120.3814044873353,"channelDimension":36.09344959486011,"loadingOrder":1,"num":2843022577550,"key":2843022577550}],"deleteDtIds":[]}
+    title: 新增方向线路接口
+
+base_delete_road_data:
+  - url: http://192.168.111.232:17777/wms_232/delivery/directionRoute/batchDelete/
+    method: post
+    data: {}
+    title: 删除方向线路接口
+
+base_create_consignment_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/consignmentDeliveryInfo/add
+    method: post
+    data: {"consignorAddr":"青岛","provinceId":15,"provinceName":"山东省","cityId":135,"cityName":"青岛市","areaId":1226,"areaName":"市北区","isEnable":"1","ownerId":"1770570116141568","ownerShowFlag":0,"orgIdList":["1770560509055488"],"consignor":"测试人员","consignorTel":"18660282391","carrierId":"1771520756486656","detailList":[]}
+    title: 新增发货信息接口
+
+base_delete_consignment_data:
+  - url: http://192.168.111.232:17777/wms_232/tm/consignmentDeliveryInfo/batchDelete/
+    method: post
+    data: {}
+    title: 删除发货信息接口
+
+base_create_driver_data:
+  - url: http://192.168.111.232:17777/wms_232/delivery/driver/batchAddOrUpdate
+    method: post
+    data: {"isEnable":"0","whIdList":[1],"skuShowFlag":0,"carrierId":"1771520756486656","carrierCode":"ZHQCTYGS","driverCode":"autotest1","driverName":"测试人员","driverLicense":"188888888888888881","contactNumber":"88888888","remark":"自动化测试","imageForJsz":{"effectiveDate":"2024-09-13","expiringDate":"2024-09-13"}}
+    title: 新增司机信息接口
+
+base_delete_driver_data:
+  - url: http://192.168.111.232:17777/wms_232/delivery/driver/batchDelete/
+    method: post
+    data: {}
+    title: 删除司机信息接口
+
+base_create_car_data:
+  - url: http://192.168.111.232:17777/wms_232/equipment/vehicle/batchAddOrUpdate
+    method: post
+    data: {"isEnable":"1","whIds":[1],"plateNumber":"autotest","mnemonicCode":"autotest","carrierId":"1771520756486656","vehicleType":"XSHC","brandModel":"1","loadCapacity":1,"loadVol":1,"direction":"QDSN","routeId":"1891760766603776","driverId":"1784534754316800","vehicleStatus":"NORMAL","detailList":[],"imageForXsz":{"effectiveDate":"2024-09-13","expiringDate":"2024-09-13"},"imageForYzbg":{},"addOrUpdate":0}
+    title: 新增车辆信息接口
+
+base_delete_car_data:
+  - url: http://192.168.111.232:17777/wms_232/equipment/vehicle/batchDelete/
+    method: post
+    data: {}
+    title: 删除车辆信息接口

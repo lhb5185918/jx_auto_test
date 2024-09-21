@@ -1,0 +1,1 @@
+2024-08-19 17:02:17,618 - test_basic_data.py[line:205] - INFO - {'code': 200, 'body': {'code': 200, 'msg': '成功'}, 'cookies': {'JSESSIONID': 'DEF71F2B317BBD14AF25823445797B2A'}}
