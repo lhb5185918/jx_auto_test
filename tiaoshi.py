@@ -1,27 +1,62 @@
-import json
+from config.path import *
+from utils.get_yaml_data import *
+from utils.requests_util import Request
+from utils.log import logger
+from utils.other_utils import *
+from utils.mysql_util import CommonDatabase
 
-import pytest
-import requests
-from utils.getyamldata import read_yaml, write_yaml
-from config.path import Path
-import random
-import json
-
+# rk_order_data:
+# - order_id:
+#     CGDD_order_id: 1
+#     ZPCGDD_order_id: 1
+#     TCSQD_order_id: 1
+#     WDTKSQD_order_id: 1
+#     PFXSTHD_order_id: 1
+#     CGDDZP_order_id: 1
+#     TCSQDZP_order_id: 1
+#     DBRKD_order_id: 1
+#     DBTCD_order_id: 1
+#     LYTHD_order_id: 1
+#     YCRKD_order_id: 1
+#   order_no:
+#     CGDD_order_no: 1
+#     ZPCGDD_order_no: 1
+#     TCSQD_order_no: 1
+#     WDTKSQD_order_no: 1
+#     PFXSTHD_order_no: 1
+#     CGDDZP_order_no: 1
+#     TCSQDZP_order_no: 1
+#     DBRKD_order_no: 1
+#     DBTCD_order_no: 1
+#     LYTHD_order_no: 1
+#     YCRKD_order_no: 1
 #
-# url = read_yaml(Path.config_file_path, 'token', 'token_url')
-# headers = {"Content-Type": read_yaml(Path.config_file_path, 'token', "Content-Type")}
-# data = read_yaml(Path.config_file_path, 'token', 'data')
-# res = requests.post(url=url, headers=headers, json=data).json()
-# print(url)
-# print(headers)
-# print(res['obj']['token'])
+
+from utils.mysql_util import CommonDatabase
+
+# res = CommonDatabase().select_data("order_type",
+#                                    "order_tt_in_order",
+#                                    "id = 1931410042638848")[
+#           "order_type"] + "_order_data"
+# print(res)
+# print(read_yaml(Path().middle_data_path, "rk_order_data", "order_data")[CommonDatabase().select_data("order_type",
+#                                                                                                      "order_tt_in_order",
+#                                                                                                      "id = 1931410042638848")[
+# #                                                                             "order_type"] + "_order_data"])
+#
+# order_id = read_yaml(Path.middle_data_path, 'rk_order_data', "order_id")
+# print(order_id)
+# for order_id_data in [order_id[i] for i in order_id]:
+#     print(order_id_data)
+#     asn_new_data = read_yaml(Path().middle_data_path, "rk_order_data", "order_data")[
+#                         CommonDatabase().select_data("order_type",
+#                                                      "order_tt_in_order",
+#                                                      f"id = '{order_id_data}'")[
+#                             "order_type"] + "_order_data"
+#                         ]
+#     print(asn_new_data)
 
 
-url = "http://bswms-uat-01.baheal.com:7777/bp/pda/equipmentQuery/getIceRowInfoList"
-data = ["296281449"]
-headers = {"Content-type": "application/json",
-           "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJsaGIiLCJjcmVhdGVkIjoxNzE3NzMwMzIzNjk0LCJjb21wYW55TmFtZSI6IumdkuWym-eZvua0i-WMu-iNr-iCoeS7veaciemZkOWFrOWPuCIsImNvbXBhbnlTaG9ydE5hbWUiOiLpnZLlspvnmb7mtIvljLvoja_ogqHku73mnInpmZDlhazlj7giLCJ1c2VySWQiOjE3MDk1OTkwNzA4Njc5NjgsInN1cHBlciI6dHJ1ZSwid2FyZWhvdXNlTmFtZSI6IumdkuWym-S7kyIsImNsaWVudF9pZCI6IlJGSURfUERBIiwid2FyZWhvdXNlQ29kZSI6IlFEQyIsInVzZXJfbm8iOiJsaGIiLCJjdXJyZW50X3VzZXJfbmFtZSI6Iuadjum4v-WuviIsInVzZXJMYW5ndWFnZSI6InpoLUNOIiwiYXVkIjpbInpocWMiXSwiY29tcGFueUlkIjo4MTc5MjY5Mzg0NjQ3NjgsImxvZ2luVGltZSI6MTcxNzczMDMyMzU5NywibW9kaWZ5VGltZSI6MTcxMzc3NjI2OTAwMCwid2FyZWhvdXNlSWQiOiI4MTc5Mjk5NDAzNDEyNDgiLCJzY29wZSI6WyJhbGwiXSwiY29tcGFueV9jb2RlIjoiUURCWVlZR0YiLCJleHAiOjE3MTc3NjYzMjMsInBsYXRGb3JtIjoiYXBwIiwianRpIjoiN2Q2YTY5YzQtM2U3OC00NmZiLTlhNmUtNTllYjIzYTRlMzQzIiwiZGF0YVBlcm1pc3Npb24iOiJ7fSJ9.cwdBtj6qAVFBFbpNS5AV-88oj5vs3hXkYt5PIleznTMt_Y2OOHDdpzFpmYkBpbq91V0vG2ri9_XDxiF_y-CNq926rhO9PzpJQN6ngcZBa5nSnPYqqAaSAkDvGavKHpQBMGsyCa0MISHCx0Zi3-uPeh7I4jLrX3txZ4L7WBvtGq3qQlv-d4X03v-XFl7LJUat1l2uGcWHnl2wzgzOg55HNSzNJE558bUkaGS-IyPr_9flU8ffwFofLIOY0Kh866oveLcbE21l6raqDFB4tjxLNdj-bCGAcTMex-zeXhDWet9R4WByYFmO8jELzvd_46vPoERFiCnEtE45cTtRIbBFYg"}
-res = requests.post(url=url, data=json.dumps(data), headers=headers).json()
-for i in res['obj']:
-    print(i['imageList'])
-
+for i in read_yaml(Path().middle_data_path, "rk_order_data", "put_shelf_id"):
+    if "CGDDZP" in i or "TCSQDZP" in i:
+        print(i)

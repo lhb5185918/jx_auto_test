@@ -1,180 +1,440 @@
 in_order_select_data:
   - url: http://192.168.111.232:17777/wms_232/order/inOrder/pageInfo
-    data: {"createTimeFm":"2024-09-01","createTimeTo":"2024-09-13","orderByColumnList":[],"page":1,"limit":50}
+    data: { "createTimeFm": "2024-09-01","createTimeTo": "2024-09-13","orderByColumnList": [ ],"page": 1,"limit": 50 }
     method: post
     title: 获取入库订单列表
 
-in_order_create_cg_data:
+in_order_create_data:
   - url: http://192.168.111.232:17777/wms_232/order/inOrder/add
     data: {
-    "origSys": "WMS",
-    "orderStatus": "CJ",
-    "jobType": "PTDD",
-    "ownerName": "智汇奇策科技有限公司",
-    "supplierName": "青岛医药科技集团有限公司--智汇奇策科技有限公司",
-    "origNo": "autotest-1",
-    "orderType": "CGDD",
-    "partnerType": "SUPPLIER",
-    "supplierId": "1838234556355072",
-    "customerId": null,
-    "storeId": null,
-    "ownerId": "1770570116141568",
-    "productFormType": "YP",
-    "buyer": "测试人员",
-    "dtReqList": [
+      "origSys": "WMS",
+      "orderStatus": "CJ",
+      "jobType": "PTDD",
+      "ownerName": "智汇奇策科技有限公司",
+      "supplierName": "青岛医药科技集团有限公司--智汇奇策科技有限公司",
+      "origNo": "autotest-1",
+      "orderType": "CGDD",
+      "partnerType": "SUPPLIER",
+      "supplierId": null,
+      "customerId": null,
+      "storeId": null,
+      "ownerId": "1770570116141568",
+      "productFormType": "YP",
+      "buyer": "测试人员",
+      "dtReqList": [
         {
-            "sourceProductionDateType": "0",
-            "sourceInvalidDateType": "0",
-            "skuId": "1870783752016384",
-            "key": "1870783752016384",
-            "companyCode": "ZHQC",
-            "whId": 1,
-            "id": "1870783752016384",
-            "remark": "",
-            "createTime": "2024-08-14 13:39:39",
-            "creator": "lhb001",
-            "creatorName": "李鸿宾",
-            "updateTime": "2024-08-29 14:16:10",
-            "updater": "lhb001",
-            "updaterName": "李鸿宾",
-            "createTimeStr": "2024-08-14 13:39:39",
-            "updateTimeStr": "2024-08-29 14:16:10",
-            "ownerId": 1770570116141568,
-            "sysSkuCode": "SS24081400001",
-            "skuCode": "M737217",
-            "skuName": "金嗓子喉宝",
-            "origSys": "WMS",
-            "spec": "50g",
-            "ephedrine": 1,
-            "tradeName": "金嗓子喉宝",
-            "skuCategoryId": 1770467433878016,
-            "brandName": "金嗓子牌",
-            "barcode": "123456789",
-            "mainUnit": "青岛金嗓子经销商",
-            "length": 1,
-            "width": 1,
-            "height": 1,
-            "vol": 1,
-            "grossWeight": 1,
-            "netWeight": 1,
-            "abc": "A",
-            "zjAbc": "A",
-            "mfgId": 1838237298561536,
-            "mfg": "江中集团有限公司",
-            "outFactoryCode": "",
-            "model": "",
-            "originCountry": "山东省青岛市市北区昆明路",
-            "logistics": "",
-            "isBatchManage": 1,
-            "isValidity": 0,
-            "validityType": "",
-            "validityDay": 12,
-            "warmValidityDay": 30,
-            "isValuables": 1,
-            "isCombination": 0,
-            "isGift": 0,
-            "isConsumables": 0,
-            "isChangeable": 0,
-            "isProneToMistakes": 0,
-            "isHeteromorphicProduct": 0,
-            "perQty": 60,
-            "midPackQty": 1,
-            "isEnable": 1,
-            "auditOpinion": null,
-            "auditStatus": 1,
-            "auditTime": null,
-            "auditName": null,
-            "barcodeTwo": "",
-            "barcodeThree": "",
-            "taxCode": "01",
-            "taxName": "所得税",
-            "taxFee": null,
-            "tempControl": "CW",
-            "scatteredProperties": "",
-            "gmpCertNo": "GMP证书",
-            "approvalNumber": "国药准字金嗓子喉宝",
-            "categoryPrincipal": "",
-            "permitHolder": "测试上市持有人",
-            "qtyStandard": "测试执行标准",
-            "mnemonicCode": null,
-            "limitSaleDay": 15,
-            "routeOfAdministration": "口服",
-            "tempMax": 99,
-            "tempMin": 1,
-            "minInvoicingUnit": null,
-            "optimistic": 0,
-            "packFactoryId": 0,
-            "productFormType": "YP",
-            "isLimitMidPack": 0,
-            "hasAnaleptic": 1,
-            "tempCondition": "常温",
-            "diCode": null,
-            "erpUpdaterName": null,
-            "erpUpdateTime": null,
-            "erpCreatorName": null,
-            "erpCreateTime": null,
-            "creditType": null,
-            "medicalInsuranceCode": null,
-            "instrumentModel": null,
-            "entrustMfgId": null,
-            "hasAnalepticName": "是",
-            "ephedrineName": "是",
-            "isDoubleCheckName": "是",
-            "isDoubleCheck": 1,
-            "isFirstCamp": 0,
-            "isFirstCampName": "否",
-            "isLimitMidPackName": "否",
-            "prodLicenseCode": null,
-            "ownerCode": "ZHQCHZ",
-            "ownerName": "智汇奇策科技有限公司",
-            "skuCategoryName": "药品",
-            "skuCategoryCode": null,
-            "skuCategoryParentId": null,
-            "productFormTypeName": "药品",
-            "maintenanceType": "ZD",
-            "maintenanceTypeName": "重点养护",
-            "skuCategorySecondId": null,
-            "drugForm": "50jx",
-            "drugFormSpec": "",
-            "grmpCertificateNo": null,
-            "grmpExpirationDate": "2031-08-31",
-            "pzwhExpirationDate": null,
-            "bomVOList": null,
-            "consumablesVOList": null,
-            "certificateVOList": null,
-            "approvalNumberList": null,
-            "gspData": null,
-            "imageVOList": null,
-            "packingVOList": null,
-            "tempControlName": "常温",
-            "isEnableName": "是",
-            "scatteredPropertiesName": null,
-            "packFactoryName": "",
-            "entrustMfgName": "",
-            "isValidityName": "否",
-            "sumUsableQty": null,
-            "auditStatusName": "已审核",
-            "isDrugSuperCode": 1,
-            "isDrugSuperCodeName": "是",
-            "auditorTime": null,
-            "orgId": "1770560509055488",
-            "orgName": "零售事业部",
-            "orgFullName": "智汇奇策科技有限公司_零售事业部",
-            "supplierId": "1838234556355072",
-            "supplierName": "青岛医药科技集团有限公司--智汇奇策科技有限公司",
-            "inOrderQty": "1.111",
-            "amount": "1.11",
-            "unitPrice": "1.00",
-            "manageValidDay": "30",
-            "sourceProductionBatch": null,
-            "_X_ROW_KEY": "row_111"
+          "sourceProductionDateType": "0",
+          "sourceInvalidDateType": "0",
+          "skuId": "1870783752016384",
+          "key": "1870783752016384",
+          "companyCode": "ZHQC",
+          "whId": 1,
+          "id": "1870783752016384",
+          "remark": "",
+          "createTime": "2024-08-14 13:39:39",
+          "creator": "lhb001",
+          "creatorName": "李鸿宾",
+          "updateTime": "2024-08-29 14:16:10",
+          "updater": "lhb001",
+          "updaterName": "李鸿宾",
+          "createTimeStr": "2024-08-14 13:39:39",
+          "updateTimeStr": "2024-08-29 14:16:10",
+          "ownerId": 1770570116141568,
+          "sysSkuCode": "SS24081400001",
+          "skuCode": "M737217",
+          "skuName": "金嗓子喉宝",
+          "origSys": "WMS",
+          "spec": "50g",
+          "ephedrine": 1,
+          "tradeName": "金嗓子喉宝",
+          "skuCategoryId": 1770467433878016,
+          "brandName": "金嗓子牌",
+          "barcode": "123456789",
+          "mainUnit": "青岛金嗓子经销商",
+          "length": 1,
+          "width": 1,
+          "height": 1,
+          "vol": 1,
+          "grossWeight": 1,
+          "netWeight": 1,
+          "abc": "A",
+          "zjAbc": "A",
+          "mfgId": 1838237298561536,
+          "mfg": "江中集团有限公司",
+          "outFactoryCode": "",
+          "model": "",
+          "originCountry": "山东省青岛市市北区昆明路",
+          "logistics": "",
+          "isBatchManage": 1,
+          "isValidity": 0,
+          "validityType": "",
+          "validityDay": 12,
+          "warmValidityDay": 30,
+          "isValuables": 1,
+          "isCombination": 0,
+          "isGift": 0,
+          "isConsumables": 0,
+          "isChangeable": 0,
+          "isProneToMistakes": 0,
+          "isHeteromorphicProduct": 0,
+          "perQty": 60,
+          "midPackQty": 1,
+          "isEnable": 1,
+          "auditOpinion": null,
+          "auditStatus": 1,
+          "auditTime": null,
+          "auditName": null,
+          "barcodeTwo": "",
+          "barcodeThree": "",
+          "taxCode": "01",
+          "taxName": "所得税",
+          "taxFee": null,
+          "tempControl": "CW",
+          "scatteredProperties": "",
+          "gmpCertNo": "GMP证书",
+          "approvalNumber": "国药准字金嗓子喉宝",
+          "categoryPrincipal": "",
+          "permitHolder": "测试上市持有人",
+          "qtyStandard": "测试执行标准",
+          "mnemonicCode": null,
+          "limitSaleDay": 15,
+          "routeOfAdministration": "口服",
+          "tempMax": 99,
+          "tempMin": 1,
+          "minInvoicingUnit": null,
+          "optimistic": 0,
+          "packFactoryId": 0,
+          "productFormType": "YP",
+          "isLimitMidPack": 0,
+          "hasAnaleptic": 1,
+          "tempCondition": "常温",
+          "diCode": null,
+          "erpUpdaterName": null,
+          "erpUpdateTime": null,
+          "erpCreatorName": null,
+          "erpCreateTime": null,
+          "creditType": null,
+          "medicalInsuranceCode": null,
+          "instrumentModel": null,
+          "entrustMfgId": null,
+          "hasAnalepticName": "是",
+          "ephedrineName": "是",
+          "isDoubleCheckName": "是",
+          "isDoubleCheck": 1,
+          "isFirstCamp": 0,
+          "isFirstCampName": "否",
+          "isLimitMidPackName": "否",
+          "prodLicenseCode": null,
+          "ownerCode": "ZHQCHZ",
+          "ownerName": "智汇奇策科技有限公司",
+          "skuCategoryName": "药品",
+          "skuCategoryCode": null,
+          "skuCategoryParentId": null,
+          "productFormTypeName": "药品",
+          "maintenanceType": "ZD",
+          "maintenanceTypeName": "重点养护",
+          "skuCategorySecondId": null,
+          "drugForm": "50jx",
+          "drugFormSpec": "",
+          "grmpCertificateNo": null,
+          "grmpExpirationDate": "2031-08-31",
+          "pzwhExpirationDate": null,
+          "bomVOList": null,
+          "consumablesVOList": null,
+          "certificateVOList": null,
+          "approvalNumberList": null,
+          "gspData": null,
+          "imageVOList": null,
+          "packingVOList": null,
+          "tempControlName": "常温",
+          "isEnableName": "是",
+          "scatteredPropertiesName": null,
+          "packFactoryName": "",
+          "entrustMfgName": "",
+          "isValidityName": "否",
+          "sumUsableQty": null,
+          "auditStatusName": "已审核",
+          "isDrugSuperCode": 1,
+          "isDrugSuperCodeName": "是",
+          "auditorTime": null,
+          "orgId": "1770560509055488",
+          "orgName": "零售事业部",
+          "orgFullName": "智汇奇策科技有限公司_零售事业部",
+          "supplierId": "1838234556355072",
+          "supplierName": "青岛医药科技集团有限公司--智汇奇策科技有限公司",
+          "inOrderQty": "1.111",
+          "amount": "1.11",
+          "unitPrice": "1.00",
+          "manageValidDay": "30",
+          "sourceProductionBatch": null,
+          "_X_ROW_KEY": "row_111"
         }
-    ],
-    "extendReq": {
+      ],
+      "extendReq": {
         "origPurchaseOrderNo": "CGDD-auto-01",
         "refundReason": null,
         "isSqueezed": 1
+      }
     }
-}
     method: post
     title: 新增采购订单
+
+in_order_dt_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/rec/queryUserNotFinishRecInOrderDt
+    data: { "inOrderId": 1 }
+    method: post
+    title: 提取入库订单dt_list接口
+
+create_asn_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/rec/generateAsn
+    data: {
+      "key": "1931410042638848",
+      "companyCode": "ZHQC",
+      "whId": 1,
+      "id": "1931410042638848",
+      "remark": "",
+      "createTime": "2024-09-26 09:31:54",
+      "creator": "lhb001",
+      "creatorName": "李鸿宾",
+      "updateTime": "2024-09-26 09:31:54",
+      "updater": "lhb001",
+      "updaterName": "李鸿宾",
+      "createTimeStr": "2024-09-26 09:31:54",
+      "updateTimeStr": "2024-09-26 09:31:54",
+      "wmsBusinessType": "TO_B",
+      "ownerId": 1770570116141568,
+      "ownerName": "智汇奇策科技有限公司",
+      "inOrderNo": "R20240926000028",
+      "orderType": "DBTCD",
+      "productFormType": "YP",
+      "orderStatus": "CJ",
+      "origSys": "WMS",
+      "origNo": "autotest173",
+      "orderAmount": 1.11,
+      "jobType": "PTDD",
+      "deliveryAddr": null,
+      "partnerType": "SUPPLIER",
+      "partnerId": 1838234556355072,
+      "partnerCode": null,
+      "partnerName": "青岛医药科技集团有限公司",
+      "partnerAddr": "",
+      "partnerMnemonicCode": "qd",
+      "orgId": 1770560509055488,
+      "orgName": "零售事业部",
+      "expArrivalTime": null,
+      "buyer": "测试人员",
+      "optimistic": 0,
+      "extend": {
+        "key": "1931410042638848",
+        "companyCode": "ZHQC",
+        "whId": 1,
+        "id": "1931410042638848",
+        "remark": "",
+        "createTime": "2024-09-26 09:31:54",
+        "creator": "lhb001",
+        "creatorName": "李鸿宾",
+        "updateTime": "2024-09-26 09:31:54",
+        "updater": "lhb001",
+        "updaterName": "李鸿宾",
+        "createTimeStr": "2024-09-26 09:31:54",
+        "updateTimeStr": "2024-09-26 09:31:54",
+        "inOrderId": 1931410042638848,
+        "isSqueezed": null,
+        "origCompanyCode": null,
+        "origWarehouseCode": null,
+        "refundReason": null,
+        "contactName": null,
+        "contactAddr": null,
+        "contactPhone": null,
+        "contactTel": null,
+        "erpUpdater": null,
+        "erpUpdateTime": null,
+        "erpCreator": "李鸿宾",
+        "erpCreateTime": null,
+        "origPurchaseOrderNo": "CGDD-auto-01",
+        "outWarehouseName": null,
+        "provinceId": null,
+        "province": null,
+        "cityId": null,
+        "city": null,
+        "areaId": null,
+        "area": null
+      },
+      "dtVOList": null,
+      "inOrderId": 1931410042638848,
+      "origPurchaseOrderNo": "CGDD-auto-01",
+      "inOrderQty": 1.111,
+      "shouldRecVarietiesQty": null,
+      "alreadyRecVarietiesQty": null,
+      "unRecVarietiesQty": null,
+      "recQty": 0,
+      "rejectQty": 0,
+      "waitRecQty": 1.111,
+      "enterWarehouseStatus": null,
+      "arriveType": null,
+      "shipTool": null,
+      "shortName": null,
+      "originalOutOrderErpNo": null,
+      "coldChainFlag": false,
+      "wmsBusinessTypeName": "ToB",
+      "productFormTypeName": "药品",
+      "origSysName": "WMS",
+      "orderTypeName": "调拨退仓单",
+      "orderStatusName": "创建",
+      "jobTypeName": "普通订单",
+      "enterWarehouseStatusName": "",
+      "erpCreator": "李鸿宾",
+      "erpUpdater": null,
+      "whName": null,
+      "companyName": null,
+      "cooperativePartnerName": null,
+      "erpCreateTime": null,
+      "erpUpdateTime": null,
+      "contactName": null,
+      "contactAddr": null,
+      "contactPhone": null,
+      "province": null,
+      "city": null,
+      "area": null,
+      "refundReason": null,
+      "partnerTypeName": "供应商",
+      "supplierId": 1838234556355072,
+      "supplierName": "青岛医药科技集团有限公司",
+      "customerId": null,
+      "customerName": null,
+      "storeId": null,
+      "storeName": null,
+      "_X_ROW_KEY": "row_146",
+      "dtList": [
+        {
+          "_X_ROW_KEY": "row_780",
+          "commodityQty": 1.111
+        }
+      ]
+    }
+    method: post
+    title: 生成asn订单
+
+re_save_order_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/rec/recSave
+    data: {
+      "waitRecList": [
+        {
+          "commonSku": {
+          },
+          "isChecked": True,
+          "isCheckedNo": True,
+          "isSecondCheck": "allFinish",
+          "_X_ROW_KEY": "row_1068"
+        }
+      ],
+      "dtList": [
+        {
+        }
+      ]
+    }
+    method: post
+    title: 收货接口
+
+create_re_save_order_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/rec/scanOrderNo/
+    method: post
+    title: 生成收获明细接口
+
+select_asn_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/asn/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "createTimeFm": "2024-09-01",
+      "createTimeTo": "2024-09-30",
+      "enterWarehouseStatusList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: asn列表查询接口
+
+
+select_asn_detail_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/asn/initUpdate/
+    data: { }
+    method: post
+    title: asn查看接口
+
+select_check_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/qc/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "createTimeFm": "2024-10-01",
+      "createTimeTo": "2024-10-08",
+      "skuCategoryIdList": [ ],
+      "erpOrderNo": "autotest58616",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 验收列表查询
+
+
+select_check_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/qc/initUpdate/
+    method: post
+    title: 验收详情查看接口
+
+create_check_save:
+  - url: http://192.168.111.232:17777/wms_232/ib/qc/saveQc
+    data: { }
+    method: post
+    title: asn查看接口
+
+select_check_wait_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/qc/queryUserNotFinishQcDt
+    data: { }
+    method: post
+    title: 待验收列表查询
+
+create_check_mission:
+  - url: http://192.168.111.232:17777/wms_232/ib/qc/receiveTask
+    method: post
+    title: 生成验收任务接口
+
+create_check_order:
+  - url: http://192.168.111.232:17777/wms_232/ib/qc/saveQc
+    data: { }
+    method: post
+    title: 验收接口
+
+select_put_shelf_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/putShelf/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "createTimeFm": "2024-10-01",
+      "createTimeTo": "2024-10-09",
+      "skuCategoryIdList": [ ],
+      "erpOrderNo": "autotest694521",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 上架列表查询
+
+
+select_put_shelf_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/putShelf/initUpdate/
+    method: post
+    title: 上架列表查看详情接口
+
+create_put_shelf_mission:
+  - url: http://192.168.111.232:17777/wms_232/ib/putShelf/receiveTask
+    method: post
+    title: 非直配订单生成上架任务
+
+create_one_put_shelf_mission:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseBatchOperation/oneKeyPutShelft
+    method: post
+    title: 直配订单一键入库
+
+select_put_shelf_wait_data:
+  - url: http://192.168.111.232:17777/wms_232/ib/putShelf/queryUserNotFinishPutShelfTaskDt
+    method: post
+    title: 索取上架列表接口

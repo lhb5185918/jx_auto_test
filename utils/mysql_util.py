@@ -1,6 +1,6 @@
 import pymysql
 from config.path import Path
-from utils.getyamldata import *
+from utils.get_yaml_data import *
 
 
 class CommonDatabase():
@@ -67,4 +67,5 @@ class CommonDatabase():
             return e
         finally:
             self.conn.close()
+
 

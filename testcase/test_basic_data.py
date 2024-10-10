@@ -1,6 +1,6 @@
 import pytest
 from config.path import *
-from utils.getyamldata import *
+from utils.get_yaml_data import *
 from utils.requests_util import Request
 from utils.log import logger
 from utils.mysql_util import CommonDatabase

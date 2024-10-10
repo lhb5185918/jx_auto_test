@@ -20,6 +20,8 @@ class Path:
 
     in_order_path = project_path + os.path.sep + "testdata" + os.path.sep + "in_order.yaml"
 
+    middle_data_path = project_path + os.path.sep + "testdata" + os.path.sep + "middle_data.yaml"
+
     data_path = project_path + os.path.sep + "testdata"
 
     util_path = project_path + os.path.sep + "utils"

@@ -17,3 +17,4 @@ login_data:
   - password: lhx7758521
     username: lhb001
     url: http://192.168.111.232:17777/oauth/password/unencrypted
+
