@@ -8,8 +8,7 @@ app = Flask(__name__)
 
 # 使用 Qianfan 的 AccessKey 和 SecretKey
 chat_completion = qianfan.ChatCompletion(
-    ak="QMoXrcUZxBiTms0lEXq8sIFr",
-    sk="8R5i1QhobkHRnD0gvxL2z85uKx57pdrN"
+
 )
 # 用于存储对话历史
 conversation_history = []
