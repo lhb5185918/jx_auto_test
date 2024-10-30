@@ -438,3 +438,218 @@ select_put_shelf_wait_data:
   - url: http://192.168.111.232:17777/wms_232/ib/putShelf/queryUserNotFinishPutShelfTaskDt
     method: post
     title: 索取上架列表接口
+create_put_shelf_order:
+  - url: http://192.168.111.232:17777/wms_232/ib/putShelf/savePutShelf
+    data: { }
+    method: post
+    title: 上架接口
+
+select_put_shelf_mission_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/putShelfTask/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "createTimeFm": "2024-10-01",
+      "createTimeTo": "2024-10-10",
+      "skuCategoryIdList": [ ],
+      "asnTypeList": [ ],
+      "putShelfTypeList": [ ],
+      "putShelfStatusList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 上架任务列表查询接口
+
+erp_create_special_order:
+  - url: http://192.168.111.232:17777/oms_232/api/erp/inOrder/add
+    data: {
+      "origCompanyCode": "ZHQC",
+      "origNo": "test-erp-20241014003",
+      "orderType": "CGDDZP",
+      "origSys": "CQ_ERP",
+      "origWarehouseCode": "MRCK",
+      "ownerCode": "ZHQCHZ",
+      "orderPrice": 1234,
+      "erpCreator": "李鸿宾",
+      "shipAddr": "测试发货地区",
+      "erpCreateTime": "2024-08-07 18:00:00",
+      "erpUpdater": "李鸿宾",
+      "erpUpdateTime": "2024-08-07 18:00:00",
+      "productFormType": "YP",
+      "jobType": "TSDD",
+      "partnerType": "SUPPLIER",
+      "partnerCode": "Stest002",
+      "province": "山东省",
+      "city": "青岛市",
+      "area": "市北区",
+      "refundReason": "测试退货原因",
+      "contactName": "测试收件人",
+      "contactAddr": "测试收货地址",
+      "contactPhone": "测试1231241241",
+      "contactTel": "52312412412",
+      "origPurchaseOrderNo": "CGDD-1000-1000",
+      "outWarehouseName": "测试",
+      "dtList": [
+        {
+          "origRowNo": 1,
+          "skuCode": "M12321321",
+          "inOrderQty": 1001,
+          "unitPrice": 12,
+          "amount": 48,
+          "orgCode": "110013687",
+          "supplierCode": "Stest002",
+          "productionBatch": "20240913001",
+          "productionDate": "2024-01",
+          "invalidDate": "2025-12",
+          "buyer": "李鸿宾"
+        }
+      ]
+    }
+    method: post
+    title: 特殊订单创建
+
+with_product_upload_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/asnAccompanyingBill/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "createTimeFm": "2024-10-01",
+      "createTimeTo": "2024-10-11",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 随货同行单查询接口
+
+upload_with_product:
+  - url: http://192.168.111.232:17777/fms/file/batchUpload
+    method: post
+    title: 随货同行单上传接口
+
+save_upload_with_product:
+  - url: http://192.168.111.232:17777/wms_232/ib/asnAccompanyingBill/saveUploadFile
+    method: post
+    data: {
+      "asnId": "1951491179352576",
+      "fileType": "SHTXD",
+      "dtList": [
+        {
+          "fileUrl": "http://192.168.111.232:17777/fms/file/downloadObsFile/b4061048-b11d-42e0-968d-4e2d312bc0d3.png",
+          "fileName": "tp1.png",
+          "fileType": "image/png"
+        }
+      ]
+    }
+    title: 随货同行单保存接口
+
+upload_with_product_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/asnAccompanyingBill/queryAsnFile/
+    method: post
+    title: 随货同行单查看接口
+
+in_order_print:
+  - url: http://192.168.111.232:17777/wms_232//ib/enterWarehouseOrderPrint/pageInfoAsn
+    data: {
+      "orderByColumnList": null,
+      "createTimeFm": "2024-10-01",
+      "createTimeTo": "2024-10-11",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库单打印列表接口
+
+with_product_print:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseOrderPrint/printAsnCoverSheet
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "asnIdList": [
+        "1952962965524992"
+      ]
+    }
+    method: post
+    title: 随货同行单打印接口
+
+check_order_print:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseOrderPrint/printQcOrder
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "qcIdList": [
+        "1952963417444864"
+      ]
+    }
+    method: post
+    title: 验收单打印接口
+
+check_order_detail_print:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseOrderPrint/printQcLabel
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "qcDtIdList": [
+        "1952963417477632"
+      ]
+    }
+    method: post
+    title: 验收标签打印接口
+
+put_order_print:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseOrderPrint/printPutShelfOrder
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "putShelfIdList": [
+        "1952964490875392"
+      ]
+    }
+    method: post
+    title: 上架单打印接口
+
+select_put_number:
+  - url: http://192.168.111.232:17777/wms_232//ib/enterWarehouseOrderPrint/pageInfoPrintPutShelfLabel
+    data: {
+      "no": null,
+      "ownerId": null,
+      "oldOrgId": null,
+      "newOrgId": null,
+      "putShelfId": "1952964458418688",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 获取上架标签打印列表
+
+
+put_order_detail_print:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseOrderPrint/printPutShelfLabel
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "serialNumberList": [
+        "112000002410000675"
+      ]
+    }
+    method: post
+    title: 上架标签打印接口
+
+select_central_control_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseConsole/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库中控台列表查询接口
+
+select_central_control_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseConsole/pageInfoRecRecord
+    data: {
+      "asnId": "2131296731468288",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库中控台获取订单明细接口
+
+update_central_control:
+  - url: http://192.168.111.232:17777/wms_232/ib/enterWarehouseConsole/updateBatchProperties
+    method: post
+    title: 入库中控台修改接口
+

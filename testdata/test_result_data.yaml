@@ -1,0 +1,219 @@
+result_data:
+- data:
+    failed: 6
+    failed_logs:
+    - error: assert (200 == 200 and None is not None)
+      test_name: 批次调整记录报表查询接口
+    - error: assert (200 == 200 and None is not None)
+      test_name: 取消订单明细查询接口
+    - error: assert (200 == 200 and None is not None)
+      test_name: 称重明细查询接口
+    - error: assert (200 == 200 and None is not None)
+      test_name: 暂存区移位记录查询接口
+    - error: assert (200 == 200 and None is not None)
+      test_name: 出车车次查询接口
+    - error: assert (200 == 200 and None is not None)
+      test_name: 物流单号修改记录
+    failed_tests:
+    - 批次调整记录报表查询接口
+    - 取消订单明细查询接口
+    - 称重明细查询接口
+    - 暂存区移位记录查询接口
+    - 出车车次查询接口
+    - 物流单号修改记录
+    passed: 42
+    response_times:
+    - is_slow: false
+      name: 货位快捷查询接口
+      time: 109.70579999999997
+      type: 用例执行
+    - is_slow: false
+      name: 库存容器查询接口
+      time: 158.29879999999986
+      type: 用例执行
+    - is_slow: false
+      name: 库存总账查询接口
+      time: 183.47720000000044
+      type: 用例执行
+    - is_slow: false
+      name: 库存明细查询件接口
+      time: 160.06959999999992
+      type: 用例执行
+    - is_slow: false
+      name: 库存交易流水查询接口
+      time: 144.10640000000006
+      type: 用例执行
+    - is_slow: false
+      name: 库龄分析查询接口
+      time: 85.66369999999957
+      type: 用例执行
+    - is_slow: false
+      name: 待扣减库存查询接口
+      time: 32.31099999999998
+      type: 用例执行
+    - is_slow: false
+      name: 库存状态变更接口
+      time: 40.17549999999925
+      type: 用例执行
+    - is_slow: false
+      name: 入库订单明细表查询接口
+      time: 40.265100000000054
+      type: 用例执行
+    - is_slow: false
+      name: 入库收货明细表查询接口
+      time: 61.88090000000024
+      type: 用例执行
+    - is_slow: false
+      name: 入库验收明细表查询接口
+      time: 91.88720000000039
+      type: 用例执行
+    - is_slow: false
+      name: 入库上架明细表查询接口
+      time: 72.81289999999973
+      type: 用例执行
+    - is_slow: false
+      name: 入库单明细表查询接口
+      time: 81.09129999999976
+      type: 用例执行
+    - is_slow: false
+      name: 入库订单作业汇总表查询接口
+      time: 59.93890000000057
+      type: 用例执行
+    - is_slow: false
+      name: 入库监控报表查询接口
+      time: 51.109199999999966
+      type: 用例执行
+    - is_slow: false
+      name: 耗材库存记录查询接口
+      time: 19.159600000000054
+      type: 用例执行
+    - is_slow: false
+      name: 加工明细记录查询接口
+      time: 27.04209999999918
+      type: 用例执行
+    - is_slow: false
+      name: 货转单明细记录查询接口
+      time: 50.451500000000316
+      type: 用例执行
+    - is_slow: false
+      name: 补货报表查询接口
+      time: 71.07529999999952
+      type: 用例执行
+    - is_slow: false
+      name: 批次调整记录报表查询接口
+      time: 34.7521000000004
+      type: 用例执行
+    - is_slow: false
+      name: 库存锁定记录查询接口
+      time: 55.85370000000012
+      type: 用例执行
+    - is_slow: false
+      name: 库存解锁记录查询接口
+      time: 56.454700000000635
+      type: 用例执行
+    - is_slow: false
+      name: 移库明细查询接口
+      time: 67.44200000000066
+      type: 用例执行
+    - is_slow: false
+      name: 移库明细查询接口
+      time: 66.8286999999994
+      type: 用例执行
+    - is_slow: false
+      name: 不合格产品查询接口
+      time: 68.7850000000001
+      type: 用例执行
+    - is_slow: false
+      name: 盘盈盘亏列表查询接口
+      time: 103.21420000000003
+      type: 用例执行
+    - is_slow: false
+      name: 出库订单分配明细查询接口
+      time: 119.05710000000002
+      type: 用例执行
+    - is_slow: false
+      name: 出库订单明细查询接口
+      time: 128.2557999999998
+      type: 用例执行
+    - is_slow: false
+      name: 取消订单明细查询接口
+      time: 39.92590000000007
+      type: 用例执行
+    - is_slow: false
+      name: 拣货明细查询接口
+      time: 79.8167000000003
+      type: 用例执行
+    - is_slow: false
+      name: 称重明细查询接口
+      time: 34.67549999999964
+      type: 用例执行
+    - is_slow: false
+      name: 分拣复核进度查询接口
+      time: 58.38289999999979
+      type: 用例执行
+    - is_slow: false
+      name: 拣货进度查询接口
+      time: 73.07850000000028
+      type: 用例执行
+    - is_slow: false
+      name: 出库作业记录查询接口
+      time: 84.9877000000001
+      type: 用例执行
+    - is_slow: false
+      name: 暂存区移位记录查询接口
+      time: 19.295800000000085
+      type: 用例执行
+    - is_slow: false
+      name: 出库频次查询接口
+      time: 26.11019999999975
+      type: 用例执行
+    - is_slow: false
+      name: 发货统计列表查询接口
+      time: 66.71210000000016
+      type: 用例执行
+    - is_slow: false
+      name: 发货监控列表查询接口
+      time: 116.14789999999964
+      type: 用例执行
+    - is_slow: false
+      name: 出库指令查询接口
+      time: 580.9655999999999
+      type: 用例执行
+    - is_slow: false
+      name: 出车车次查询接口
+      time: 24.224799999999824
+      type: 用例执行
+    - is_slow: false
+      name: 物流单号修改记录
+      time: 19.105099999999986
+      type: 用例执行
+    - is_slow: false
+      name: 配送单历史查询
+      time: 45.72839999999978
+      type: 用例执行
+    - is_slow: false
+      name: 托运单历史查询
+      time: 59.896199999999844
+      type: 用例执行
+    - is_slow: false
+      name: 装车确认滞留单据查询接口
+      time: 39.74089999999908
+      type: 用例执行
+    - is_slow: false
+      name: 配送当前与历史查询接口
+      time: 42.78829999999978
+      type: 用例执行
+    - is_slow: false
+      name: 托运当前与历史查询接口
+      time: 62.37870000000001
+      type: 用例执行
+    - is_slow: false
+      name: 作业量统计接口
+      time: 48.66780000000048
+      type: 用例执行
+    - is_slow: false
+      name: b2b委托订单关系查询接口
+      time: 36.9250000000001
+      type: 用例执行
+    slow_tests: []
+    total: 48

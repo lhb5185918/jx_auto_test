@@ -1,0 +1,734 @@
+select_product_change_status_page_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/skuStatusChange/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 产品状态变化管理列表页查询接口
+
+select_product_change_status_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/skuStatusChange/queryStock
+    data: {
+      "isEnable": "1",
+      "changeTime": "2024-10-18 15:51:35",
+      "emphMaintainType": "PT",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "orgId": null,
+      "productFormType": "YP",
+      "type": 1,
+      "skuId": "1867818750628352",
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50,
+      "stockStatus": "HG"
+    }
+    method: post
+    title: 产品状态变化管理详情明细查询接口
+
+create_product_change_status:
+  - url: http://192.168.111.232:17777/wms_232//gsp/skuStatusChange/add
+    data: {
+      "isEnable": "1",
+      "changeTime": "2024-10-18 15:51:35",
+      "emphMaintainType": "PT",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "orgId": null,
+      "productFormType": "YP",
+      "type": 1,
+      "skuId": null,
+      "skuBigCategoryId": null,
+      "skuCategoryId": null,
+      "zoneId": null,
+      "lotId": null,
+      "productionBatch": null,
+      "delDtIds": [ ],
+      "dtList": [
+        {
+        }
+      ]
+    }
+    method: post
+    title: 产品状态变化管理新增接口
+
+audit_product_change_status:
+  - url: http://192.168.111.232:17777/wms_232//gsp/skuStatusChange/audit/
+    method: post
+    title: 产品状态变化管理审核接口
+
+product_change_status_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/skuStatusChange/initUpdate/
+    method: post
+    title: 产品变化管理单详情查看接口
+
+select_yh_management_page_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/pro/emphMaintain/pageInfo
+    data: {
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": [ ]
+    }
+    method: post
+    title: 养护管理列表查询接口
+
+select_yh_management_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/pro/emphMaintain/queryInStockPro
+    data: {
+      "orderByColumnList": null,
+      "isEnable": "1",
+      "emphMaintainType": "ZD",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "orgId": null,
+      "productFormType": "YP",
+      "skuId": "1870783752016384",
+      "maintainType": "ZD",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 养护详情明细查询接口
+
+create_yh_management:
+  - url: http://192.168.111.232:17777/wms_232/gsp/pro/emphMaintain/add
+    data: {
+      "isEnable": "1",
+      "emphMaintainType": "ZD",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "orgId": null,
+      "productFormType": "YP",
+      "skuId": null,
+      "productCategory": null,
+      "skuCategoryId": null,
+      "zoneId": null,
+      "lotId": null,
+      "delDtIds": [ ],
+      "dtList": [
+        {
+        }
+      ]
+    }
+    method: post
+    title: 养护管理新增接口
+
+select_yh_mission_page_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/pro/proMaintain/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 养护记录单列表查询接口
+
+select_yh_mission_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/pro/proMaintain/queryMaintainComfirmList
+    data: {
+      "sort": "",
+      "order": "",
+      "maintainType": "ZD",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "isAutomate": 0,
+      "ownerId": "1770570116141568",
+      "productFormType": "YP",
+      "productCategory": null,
+      "skuCategoryIdList": [ ],
+      "zoneId": null,
+      "lotId": null,
+      "skuId": null,
+      "productionBatch": null,
+      "tempControlList": [ ],
+      "emphMaintainNo": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 养护记录单详情明细查询接口
+
+
+create_yh_mission:
+  - url: http://192.168.111.232:17777/wms_232/gsp/pro/proMaintain/add
+    data: {
+      "maintainType": "ZD",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "isAutomate": 0,
+      "ownerId": "1770570116141568",
+      "productFormType": "YP",
+      "productCategory": null,
+      "skuCategoryIdList": [ ],
+      "zoneId": null,
+      "lotId": null,
+      "skuId": null,
+      "productionBatch": null,
+      "tempControlList": [ ],
+      "emphMaintainNo": null,
+      "dtList": [
+        {
+          "maintainMeasureList": [
+            "FS"
+          ]
+        }
+      ]
+    }
+    method: post
+    title: 养护任务新增接口
+
+select_yh_files:
+  - url: http://192.168.111.232:17777/wms_232/gsp/pro/maintainRecord/querySkuInfo
+    data: {
+      "orderByColumnList": null,
+      "skuCategory": "YP",
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 产品养护档案查询接口
+
+select_check_quality_page_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheck/pageInfo
+    data: {
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": [ ]
+    }
+    method: post
+    title: 质量复检通知单列表查询接口
+
+select_check_quality_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheck/queryRecheckList
+    data: {
+      "isEnable": "1",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "productFormType": "YP",
+      "skuId": "1867818750628352",
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 质量附件通知单详情明细查询接口
+
+
+create_check_quality:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheck/add
+    data: {
+      "isEnable": "1",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "productFormType": "YP",
+      "skuId": null,
+      "productCategory": null,
+      "skuCategoryId": null,
+      "zoneId": null,
+      "lotId": null,
+      "delDtIds": [ ],
+      "dtList": [
+        {
+        }
+      ]
+    }
+    method: post
+    title: 质量复检通知单新增接口
+
+
+select_check_quality_detail:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheck/initUpdate/
+    method: post
+    title: 质量复检通知单查看接口
+
+audit_check_quality:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheck/audit/
+    method: post
+    title: 质量复检通知单审核接口
+
+select_audit_quality_list_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheckInfo/pageInfo
+    data: {
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": [ ]
+    }
+    method: post
+    title: 质量复检审核列表查询接口
+
+select_audit_quality_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheckInfo/initUpdate/
+    method: post
+    title: 质量复检审核详情明细查询接口
+
+create_audit_quality:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheckInfo/update
+    method: post
+    title: 质量复检审核接口
+
+
+audit_quality_audit:
+  - url: http://192.168.111.232:17777/wms_232//gsp/recheckInfo/audit/
+    method: post
+    title: 质量复检审核完成接口
+
+select_bhg_product_page_info:
+  - url: http://192.168.111.232:17777/wms_232/gsp/ncr/pageInfo
+    data: {
+      "ncrStatus": "SHWC"
+    }
+    method: post
+    title: 不合格产品报损列表查询接口
+
+select_bhg_product_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/ncr/queryStock
+    data: {
+      "isEnable": "1",
+      "emphMaintainType": "PT",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "orgId": null,
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "productFormType": "YP",
+      "isLogisticsCompensation": "Y",
+      "isShowFlag": true,
+      "skuId": "1867818750628352",
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": null,
+      "stockStatus": "BHG"
+    }
+    method: post
+    title: 不合格产品详情明细查询接口
+
+create_bhg_product:
+  - url: http://192.168.111.232:17777/wms_232/gsp/ncr/add
+    data: {
+      "isEnable": "1",
+      "emphMaintainType": "PT",
+      "maintainUser": "lhb001",
+      "maintainUserName": "李鸿宾",
+      "orgId": null,
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "productFormType": "YP",
+      "isLogisticsCompensation": "Y",
+      "isShowFlag": true,
+      "skuId": null,
+      "zoneId": null,
+      "lotId": null,
+      "productionBatch": null,
+      "tips": "changed",
+      "deleteDtIds": [ ],
+      "dtList": [
+        {
+        }
+      ]
+    }
+    method: post
+    title: 不合格产品新增接口
+
+select_bhg_product_audit:
+  - url: http://192.168.111.232:17777/wms_232/gsp/ncr/audit/
+    method: post
+    title: 不合格产品审核接口
+
+erp_audit_bhg_product:
+  - url: http://192.168.111.232:17777/oms_232/api/erp/ncr/reBackNcr
+    data: {
+      "origCompanyCode": "ZHQC",
+      "origWarehouseCode": "MRCK",
+      "ncrNo": "BGD241028000013",
+      "origSys": "CQ_ERP",
+      "replyUser": "李鸿宾",
+      "replyDate": "2024-08-29 14:00:00",
+      "replyDept": "个人事业部",
+      "replyNotes": "全部同意",
+      "dtList": [
+        {
+          "rowNo": "1",
+          "agreeQty": 0,
+          "erpReportCode": "ERP-111111"
+        }
+      ]
+    }
+    method: post
+    title: erp审核不合格产品接口
+
+bhg_down_shelf:
+  - url: http://192.168.111.232:17777/wms_232/gsp/ncr/saveGspFrmLossRecord
+    data: {
+      "perQty": 105,
+      "packageAttr": "ZJ",
+      "ownerId": 1770570116141568,
+      "orgId": 1770560509055488,
+      "batchNo": "P24091300179",
+      "bsQty": 105,
+      "lotCode": "BHG1",
+      "ncrNo": "BGD241029000002",
+      "skuId": 1867818750628352
+    }
+    method: post
+    title: PDA报损下架接口
+
+select_destroy_product_page_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/destroyInfo/pageInfo
+    data: {
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": [ ]
+    }
+    method: post
+    title: 销毁作业列表查询接口
+
+select_destroy_product_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/gsp/destroyInfo/getDestroyDetailList
+    data: {
+      "isEnable": "1",
+      "destroyMethod": "FS",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "productFormType": "YP",
+      "destroyPlace": "青岛市市北区",
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": null
+    }
+    method: post
+    title: 销毁作业详情明细查询接口
+
+create_destroy_product:
+  - url: http://192.168.111.232:17777/wms_232//gsp/destroyInfo/add
+    data: {
+      "isEnable": "1",
+      "destroyMethod": "FS",
+      "ownerId": "1770570116141568",
+      "flag": 1,
+      "productFormType": "YP",
+      "destroyPlace": "青岛市市北区",
+      "productCategoryId": null,
+      "ncrNo": null,
+      "skuName": null,
+      "orgName": null,
+      "delDtIds": [ ],
+      "destroyTime": "2024-10-30 11:29:15",
+      "destroyInfoDtReqList": [
+        {
+        }
+      ]
+    }
+    method: post
+    title: 销毁作业新增接口
+
+audit_destroy_product:
+  - url: http://192.168.111.232:17777/wms_232//gsp/destroyInfo/firstAudit/
+    method: post
+    title: 销毁作业一次审核接口
+
+second_audit_destroy_product:
+  - url: http://192.168.111.232:17777/wms_232//gsp/destroyInfo/audit/
+    method: post
+    title: 销毁作业二次审核接口
+
+select_near_expire_date_page_info:
+  - url: http://192.168.111.232:17777/wms_232/gsp/nearTermUrgeSalesRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    title: 近效期催销接口
+
+select_unsalable_page_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/unsalableUrgeSalesRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    title: 滞销催销列表查询接口
+
+select_unsalable_detail_info:
+  - url: http://192.168.111.232:17777/wms_232//gsp/unsalableUrgeSalesRecord/queryInStockList
+    method: post
+    data: {
+      "isEnable": "1",
+      "ownerId": "1770570116141568",
+      "productFormType": "YP",
+      "limitSaleDay": 10,
+      "skuId": "1867818750628352",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    title: 滞销催销详情明细查询接口
+
+create_unsalable_data:
+  - url: http://192.168.111.232:17777/wms_232//gsp/unsalableUrgeSalesRecord/add
+    method: post
+    data: {
+      "isEnable": "1",
+      "ownerId": "1770570116141568",
+      "productFormType": "YP",
+      "limitSaleDay": null,
+      "skuId": null,
+      "zoneId": null,
+      "lotId": null,
+      "skuCategoryIdList": [ ],
+      "productionBatch": null,
+      "dtList": [
+        {
+        }
+      ]
+    }
+    title: 新增滞销催销接口
+
+
+select_unsalable_list_page_info:
+  - url: http://192.168.111.232:17777/wms_232/gsp/unsalableForewarn/pageInfo
+    method: post
+    data: {
+      "proCategory": "YP",
+      "dayInterval": 90,
+      "orgIdList": [ ],
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "stockStatusList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    title: 滞销催销报表查询接口
+
+select_immediate_list_page_info:
+  - url: http://192.168.111.232:17777/wms_232/gspRecord/gspStockInfo/pageInfo
+    method: post
+    data: {
+      "skuIdArray": "1867818750628352",
+      "skuName": "氨糖",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 即时库存查询接口
+
+select_resave_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gsp/gspRecInfo/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "asnCreateTimeFm": "2024-10-01",
+      "asnCreateTimeTo": "2024-10-30",
+      "asnTypeList": [ ],
+      "skuCategoryIdList": [ ],
+      "skuIdArray": "1867818750628352",
+      "tempControlList": [ ],
+      "skuName": "氨糖",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品收货查询接口
+
+select_check_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspProductQcRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "productionBatch": "20240910001",
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "checkResultList": [ ],
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品验收记录查询接口
+
+select_in_order_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspPaRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "productionBatch": "20240910001",
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品入库记录查询接口
+
+select_out_order_fh_record_page_info:
+  - url: http://192.168.111.232:17777/reporter//gspRecord/gspReviewRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuIdArray": "1867818750628352",
+      "productionBatch": null,
+      "soNo": null,
+      "cusOrderNo": null,
+      "cooperativePartnerName": null,
+      "mfgId": null,
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "soTypeList": [ ],
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "skuName": "氨糖",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品出库复核记录查询接口
+
+select_check_yh_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspMaintainConfirmRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "emphMaintainType": "ZD",
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "stockStatusList": [ ],
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品养护确认记录查询接口
+
+select_yh_record_page_info:
+  - url: http://192.168.111.232:17777/reporter//gspRecord/gspProMaintainRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "maintainType": "ZD",
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "soTypeList": [ ],
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品养护记录查询接口
+select_recheck_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspProRecheckRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "recheckUserName": "李鸿宾",
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品复检记录查询接口
+
+select_bhg_report_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspNgProLossReportRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "skuName": "氨糖",
+      "skuIdArray": "1867818750628352",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 不合格产品报损记录查询接口
+
+select_bhg_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspUnqualifiedRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "skuName": "氨糖",
+      "skuIdArray": "1867818750628352",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 不合格产品记录查询接口
+
+select_bhg_destroy_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspNgProDestroyRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "skuName": "氨糖",
+      "skuIdArray": "1867818750628352",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 不合格产品销毁记录查询接口
+
+select_refused_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspProRejectRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuIdArray": "1867818750628352",
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "skuName": "氨糖",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品拒收记录查询接口
+
+select_jxq_cx_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspNearTermUrgeSalesRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuIdArray": "1867818750628352",
+      "tempControlList": [ ],
+      "skuCategoryIdList": [ ],
+      "stockStatusList": [ ],
+      "skuName": "氨糖",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品近效期催销记录
+
+select_zx_cx_record_page_info:
+  - url: http://192.168.111.232:17777/reporter/gspRecord/gspNearTermUrgeSalesRecord/pageInfo
+    method: post
+    data: {
+      "orderByColumnList": null,
+      "skuIdArray": "1867818750628352",
+      "tempControlList": [ ],
+      "skuCategoryIdList": [ ],
+      "stockStatusList": [ ],
+      "skuName": "氨糖",
+      "page": 1,
+      "limit": 50,
+      "productFormType": "YP"
+    }
+    title: 产品滞销催销记录

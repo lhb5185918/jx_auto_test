@@ -1,0 +1,48 @@
+jh_review_id:
+- data: '2186653676261888'
+lh_pick_box_label:
+- data: '2102202002503012454'
+lh_pick_mission_id:
+- data: '2186653493694976'
+lh_pick_no:
+- data: JHRW25032500010
+lh_review_id:
+- data: '2186653664465408'
+order_no:
+- data: auto-test383736
+pick_id:
+- data: '2186653439840768'
+so_id:
+- data: '2186653037154816'
+so_info_id:
+- data: 2186653604221440
+toc_lh_pick_mission_id:
+- data: '2186653881094656'
+toc_lh_pick_no:
+- data: JHD25032500006
+toc_order_no:
+- data: auto-test360127
+toc_pick_id:
+- data: '2186653862400512'
+toc_review_id:
+- data: '2186654010298880'
+toc_so_id:
+- data: '2186653769617920'
+toc_so_no:
+- data: SO250325000000006
+toc_wave_dt_id:
+- data: '2186653845557760'
+toc_wave_id:
+- data: '2186653845541376'
+toc_zj_pick_mission_id:
+- data: '2186653877867008'
+toc_zj_pick_no:
+- data: JHD25032500006
+wave_dt_id:
+- data: '2186653424407040'
+wave_id:
+- data: '2186653424390656'
+zj_pick_mission_id:
+- data: '2186653490188800'
+zj_pick_no:
+- data: JHRW25032500009

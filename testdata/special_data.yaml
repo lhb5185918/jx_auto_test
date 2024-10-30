@@ -1,0 +1,57 @@
+create_special_order:
+  - url: http://192.168.111.232:17777/oms_232/api/erp/inOrder/add
+    data: {
+      "origCompanyCode": "ZHQC",
+      "origNo": "test-erp-20241129001",
+      "orderType": "CGDDZP",
+      "origSys": "CQ_ERP",
+      "origWarehouseCode": "MRCK",
+      "ownerCode": "ZHQCHZ",
+      "orderPrice": 1234,
+      "erpCreator": "李鸿宾",
+      "shipAddr": "测试发货地区",
+      "erpCreateTime": "2024-08-07 18:00:00",
+      "erpUpdater": "李鸿宾",
+      "erpUpdateTime": "2024-08-07 18:00:00",
+      "productFormType": "YP",
+      "jobType": "TSDD",
+      "partnerType": "SUPPLIER",
+      "partnerCode": "Stest002",
+      "province": "山东省",
+      "city": "青岛市",
+      "area": "市北区",
+      "refundReason": "测试退货原因",
+      "contactName": "测试收件人",
+      "contactAddr": "测试收货地址",
+      "contactPhone": "测试1231241241",
+      "contactTel": "52312412412",
+      "origPurchaseOrderNo": "CGDD-1000-1000",
+      "outWarehouseName": "测试",
+      "dtList": [
+        {
+          "origRowNo": 1,
+          "skuCode": "M12321321",
+          "inOrderQty": 1001,
+          "unitPrice": 12,
+          "amount": 48,
+          "orgCode": "110013687",
+          "supplierCode": "Stest002",
+          "productionBatch": "20240910001",
+          "productionDate": "2024-01",
+          "invalidDate": "2024-12",
+          "buyer": "李鸿宾"
+        }
+      ]
+    }
+    method: post
+    title: erp新增特殊订单接口
+
+
+select_special_order_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ib/specialInOrder/querySpecialInOrder
+    data: {
+      "orderNo": "test-special-847281"
+    }
+    method: post
+    title: erp查询订单详情
+

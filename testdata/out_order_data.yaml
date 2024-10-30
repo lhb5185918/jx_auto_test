@@ -1,0 +1,1141 @@
+out_order_select_data:
+  - url: http://192.168.111.232:17777/wms_232/order/outOrder/pageInfo
+    data: {
+      "createTimeFm": "2024-10-01 00:00:00",
+      "createTimeTo": "2024-10-30 23:59:59",
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 获取出库订单列表
+
+create_out_order:
+  - url: http://192.168.111.232:17777/wms_232/order/outOrder/add
+    data: {
+      "jobType": "PTDD",
+      "origSys": "WMS",
+      "orderStatus": "NEW_CREATE",
+      "country": "CHN",
+      "ownerName": "智汇奇策科技有限公司",
+      "orgId": "1770560509055488",
+      "orgName": "零售事业部",
+      "provinceCode": "370000",
+      "provinceName": "山东省",
+      "cityId": "135",
+      "cityCode": "370200",
+      "cityName": "青岛市",
+      "areaId": "1226",
+      "areaCode": "370203",
+      "areaName": "市北区",
+      "origSysName": "WMS",
+      "productFormType": "YP",
+      "isPrescription": 0,
+      "wmsBusinessType": "TO_B",
+      "origNo": "test-erp-20241031001",
+      "ownerId": "1770570116141568",
+      "orderType": "FHD",
+      "partnerType": "STORE",
+      "partnerCode": "sypmyd",
+      "partnerName": "青岛漱玉平民大药房台东店",
+      "partnerId": "1848003360018944",
+      "partnerAddr": "山东省青岛市市北区台东六路",
+      "partnerMnemonicCode": "sypm1",
+      "erpCarrierId": "1870670220923392",
+      "erpCarrierName": "苍穹运输商",
+      "deliveryMethod": "ZPS",
+      "contactName": "测试人员",
+      "contactTel": "18660282391",
+      "provinceId": "15",
+      "contactAddr": "山东省青岛市市北区",
+      "isPrintUpstreamOrder": 0,
+      "isPrintUpstreamInvoice": 0,
+      "remark": "测试用",
+      "orderPrice": "110.11",
+      "discountPrice": "110.11",
+      "extendReq": {
+        "orderPrice": "110.11",
+        "discountPrice": "110.11",
+        "isPrintUpstreamOrder": 0,
+        "isPrintUpstreamInvoice": 0
+      },
+      "dtList": [
+        {
+          "productionDateType": "1",
+          "invalidDateType": "1",
+          "skuId": "1867818750628352",
+          "key": "1867818750628352",
+          "companyCode": "ZHQC",
+          "whId": 1,
+          "id": "1867818750628352",
+          "remark": "",
+          "createTime": "2024-08-12 11:23:29",
+          "creator": "lhb001",
+          "creatorName": "李鸿宾",
+          "updateTime": "2024-08-30 15:56:52",
+          "updater": "luanfujian",
+          "updaterName": "栾福建",
+          "createTimeStr": "2024-08-12 11:23:29",
+          "updateTimeStr": "2024-08-30 15:56:52",
+          "ownerId": 1770570116141568,
+          "sysSkuCode": "SS24081200001",
+          "skuCode": "M12321321",
+          "skuName": "氨糖",
+          "origSys": "WMS",
+          "spec": "50g",
+          "ephedrine": 1,
+          "tradeName": "氨糖",
+          "skuCategoryId": 1770467433878016,
+          "brandName": "",
+          "barcode": "9093281111",
+          "mainUnit": "青岛海尔科技有限公司",
+          "length": 2,
+          "width": 3,
+          "height": 5,
+          "vol": 30,
+          "grossWeight": 1,
+          "netWeight": 1,
+          "abc": "A",
+          "zjAbc": "A",
+          "mfgId": 1848005222961664,
+          "mfg": "青岛海尔生物医药科技有限公司",
+          "outFactoryCode": "",
+          "model": "",
+          "originCountry": "山东省青岛市市北区",
+          "logistics": "",
+          "isBatchManage": 1,
+          "isValidity": 0,
+          "validityType": "",
+          "validityDay": 0,
+          "warmValidityDay": 30,
+          "isValuables": 0,
+          "isCombination": 0,
+          "isGift": 0,
+          "isConsumables": 0,
+          "isChangeable": 0,
+          "isProneToMistakes": 0,
+          "isHeteromorphicProduct": 0,
+          "perQty": 105,
+          "midPackQty": 11,
+          "isEnable": 1,
+          "auditOpinion": null,
+          "auditStatus": null,
+          "auditTime": null,
+          "auditName": null,
+          "barcodeTwo": "",
+          "barcodeThree": "",
+          "taxCode": "",
+          "taxName": "",
+          "taxFee": null,
+          "tempControl": "CW",
+          "scatteredProperties": "",
+          "gmpCertNo": "123",
+          "approvalNumber": "国药准字氨糖",
+          "categoryPrincipal": "",
+          "permitHolder": "",
+          "qtyStandard": "",
+          "mnemonicCode": "",
+          "limitSaleDay": 0,
+          "routeOfAdministration": "",
+          "tempMax": null,
+          "tempMin": null,
+          "minInvoicingUnit": null,
+          "optimistic": 0,
+          "packFactoryId": 0,
+          "productFormType": "YP",
+          "isLimitMidPack": 1,
+          "hasAnaleptic": 0,
+          "tempCondition": null,
+          "diCode": null,
+          "erpUpdaterName": null,
+          "erpUpdateTime": null,
+          "erpCreatorName": null,
+          "erpCreateTime": null,
+          "creditType": null,
+          "medicalInsuranceCode": null,
+          "instrumentModel": null,
+          "entrustMfgId": null,
+          "hasAnalepticName": "否",
+          "ephedrineName": "是",
+          "isDoubleCheckName": "否",
+          "isDoubleCheck": 0,
+          "isFirstCamp": 0,
+          "isFirstCampName": "否",
+          "isLimitMidPackName": "是",
+          "prodLicenseCode": null,
+          "ownerCode": "ZHQCHZ",
+          "ownerName": "智汇奇策科技有限公司",
+          "skuCategoryName": "药品",
+          "skuCategoryCode": null,
+          "skuCategoryParentId": null,
+          "productFormTypeName": "药品",
+          "maintenanceType": "",
+          "maintenanceTypeName": null,
+          "skuCategorySecondId": null,
+          "drugForm": "_",
+          "drugFormSpec": "",
+          "grmpCertificateNo": null,
+          "grmpExpirationDate": "2030-08-31",
+          "pzwhExpirationDate": null,
+          "bomVOList": null,
+          "consumablesVOList": null,
+          "certificateVOList": null,
+          "approvalNumberList": null,
+          "gspData": null,
+          "imageVOList": null,
+          "packingVOList": null,
+          "tempControlName": "常温",
+          "isEnableName": "是",
+          "scatteredPropertiesName": null,
+          "packFactoryName": "",
+          "entrustMfgName": "",
+          "isValidityName": "否",
+          "sumUsableQty": null,
+          "auditStatusName": null,
+          "isDrugSuperCode": 0,
+          "isDrugSuperCodeName": "否",
+          "auditorTime": null,
+          "outOrderQty": 110.111,
+          "paidPricePerUnit": 1,
+          "productionBatch": "20240910001",
+          "stockStatus": "HG",
+          "stockStatusName": "合格",
+          "productDate": "2024-01",
+          "invalidDate": "2024-12",
+          "limitValid": 0,
+          "limitValidName": "不限制",
+          "_X_ROW_KEY": "row_155"
+        }
+      ]
+    }
+    method: post
+    title: tob创建出库订单接口
+
+make_out_order_data:
+  - url: http://192.168.111.232:17777/wms_232/order/outOrder/createSo
+    method: post
+    title: 生成so接口
+
+select_out_order_detail_data:
+  - url: http://192.168.111.232:17777/wms_232/order/outOrder/initUpdate/
+    method: post
+    title: so单查看接口
+
+
+so_allocation_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/soAssignment/pageInfo
+    method: post
+    data: {
+      "page": 1,
+      "limit": 50,
+      "orderByColumnList": null
+    }
+    title: so分配列表查询接口
+
+so_allocation_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/soAssignment/doAssign
+    method: post
+    title: so分配接口
+
+so_allocation_detail_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/soAssignment/initUpdate/
+    method: post
+    title: so查看详情接口
+
+so_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/so/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: so列表查询接口
+
+so_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/so/initUpdate/
+    method: post
+    title: so查看接口
+
+so_change_carrier:
+  - url: http://192.168.111.232:17777/wms_232/ob/so/batchModifyCarrier
+    data: {
+      "ids": [
+        "1981217729040896"
+      ],
+      "soNoList": [
+        "SO241031000000006"
+      ],
+      "takeDeliveryMethod": "ZPS",
+      "carrierId": "1891757036769792"
+    }
+    method: post
+    title: so单更换承运商接口
+
+so_print_order:
+  - url: http://192.168.111.232:17777/wms_232/ob/so/printNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        "1981217729040896"
+      ]
+    }
+    method: post
+    title: so单打印网店发货单接口
+
+so_print_send_product:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/reprintDeliveryNoteNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        "1981217729040896"
+      ]
+    }
+    method: post
+    title: so单打印送货单接口
+
+wave_list_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/pageWaveArrangement
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 波次预排列表查询接口
+
+wave_count_number_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/countSoDeliveryMethod
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 波次预排数量统计接口
+
+create_wave_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/manualCreateWaveOrder
+    data: {
+      "soIdList": [
+        "1981239128117760"
+      ],
+      "pickOrderLevel": 1,
+      "zjPickMode": "XJHB",
+      "lhPickMode": "XJHB",
+      "isUrgent": false
+    }
+    method: post
+    title: 生成波次接口
+
+wave_release_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/pageWaveIssue
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 波次下发列表查询接口
+
+wave_release_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/selectWaveOrderDt/
+    method: post
+    title: 波次详情明细查询接口
+
+wave_staging_update:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/batchMarkFictitiousStagingArea
+    method: post
+    title: 波次暂存区设置接口
+
+create_release_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveIssued/waveOrderRelease
+    data: {
+      "idList": [
+        "1981240027140608"
+      ],
+      "isEmptyStagingArea": false
+    }
+    method: post
+    title: 波次发布接口
+
+wave_release_list_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveOrder/pageInfo
+    data: {
+      "productFormType": "YP",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 波次列表查询接口
+
+wave_release_list_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/waveOrder/initUpdate/
+    method: post
+    title: 波次列表查看接口
+
+pick_order_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickOrder/pageInfo
+    data: {
+      "productFormType": "YP",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 拣货单列表查询接口
+
+pick_order_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickOrder/initUpdate/
+    method: post
+    title: 拣货单详情查看接口
+
+pick_order_print_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickOrder/print
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "pickOrderIdList": [
+        "1981298307289600"
+      ]
+    }
+    method: post
+    title: 拣货单打印接口
+
+zi_pick_order_assignment:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickOrder/pickAssignment
+    data: {
+      "userId": "1804053224903168",
+      "pickOrderId": "1981298307289600",
+      "pickWay": "ZJ",
+      "workMode": "RG"
+    }
+    method: post
+    title: 整件拣货任务指派接口
+
+lh_pick_order_assignment:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickOrder/pickAssignment
+    data: {
+      "userId": "1804053224903168",
+      "pickOrderId": "1981298307289600",
+      "pickWay": "LH",
+      "workMode": "RG"
+    }
+    method: post
+    title: 零货拣货任务指派接口
+
+pick_mission_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickTask/pageInfo
+    data: {
+      "productFormType": "YP",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 拣货任务列表查询接口
+
+pick_mission_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pickTask/initUpdate/
+    method: post
+    title: 拣货任务查看接口
+
+pick_mission_fjd_print:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/printFjdNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "idList": [
+        1981312075911680
+      ]
+    }
+    method: post
+    title: 拣货任务分拣单打印接口
+
+pick_mission_detail_print:
+  - url: http://192.168.111.232:17777/wms_232/ob/pcPick/printPickTask
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "idList": [
+        "1981312075911680"
+      ]
+    }
+    method: post
+    title: 拣货任务分拣明细打印接口
+
+pick_mission_paper_print:
+  - url: http://192.168.111.232:17777/wms_232/ob/pcPick/rePrintPickLabel
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "pickTaskId": "2176577017680384"
+    }
+    method: post
+    title: 拣货任务纸质拣货单打印接口
+
+one_pick_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pcPick/pageInfo
+    data: {
+      "productFormType": null,
+      "wmsBusinessType": null,
+      "pickOrderNo": null,
+      "pickTaskNo": null,
+      "soNo": null,
+      "erpOrderNo": null,
+      "cooperativePartnerName": null,
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: PC拣货列表查询接口
+
+
+one_pick_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/pcPick/pickTaskDetails/
+    method: post
+    title: PC拣货详情明细查询接口
+
+lh_one_pick_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/pcPick/onekeyPick
+    method: post
+    title: PC零货一键拣货接口
+
+zj_one_pick_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/pcPick/onekeyPick
+    method: post
+    title: PC整件一键拣货接口
+
+zj_seeding_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/selectPickTaskData
+    data: {
+      "pickTaskNo": "JHRW24103100018",
+      "showBottomFlag": "YP",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 整件播种列表查询接口
+
+zj_seeding_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/selectPCSowInfoTobByPickTaskId/
+    method: post
+    title: 整件播种详情明细接口
+
+zj_seeding_print_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/printFjdNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "idList": [
+        1981364414730752
+      ]
+    }
+    method: post
+    title: 整件播种打印分拣明细接口
+
+zj_seeding_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/pcForceSow/
+    method: post
+    title: 整件播种一键分拣接口
+
+lh_get_seeding_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/pcLhScanPickTaskNo/
+    method: post
+    title: 零货播种索取播种任务接口
+
+lh_get_seeding_product_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/pcLhScanSkuCode/
+    method: post
+    title: 零货播种索取播种产品接口
+
+lh_seeding_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/pcSaveSowInfoTobScanRecord
+    data: {
+      "pickTaskNo": "JHRW24103100023",
+      "sowCode": "1",
+      "skuCode": "M12321321",
+      "productionBatch": "20240910001",
+      "sowInfoTobId": 1981381141549568,
+      "scanSowQty": 5.111
+    }
+    method: post
+    title: 零货播种接口
+
+lh_seeding_fjd_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/printFjdNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "idList": [
+        1981381136470528
+      ]
+    }
+    method: post
+    title: 零货分拣单打印接口
+
+lh_seeding_box_label_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/printSowBoxLabel
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "idList": [
+        1981381136470528
+      ]
+    }
+    method: post
+    title: 零货箱标签打印接口
+
+lh_get_seeding_pick_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/getLhPickTaskInfo/
+    method: post
+    title: 播种拣货容器查看接口
+
+lh_get_seeding_fj_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfoTob/getLhSowScanRecord/
+    method: post
+    title: 播种分拣信息查看接口
+
+cl_fh_get_mission:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2b/initReviewData
+    data: {
+      "checkPlatformId": 1802564447375872,
+      "platform": "PC",
+      "boxNo": "2102202002410001982"
+    }
+    method: post
+    title: 拆零复核索取箱标签接口
+
+cl_fh_print_box_no:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2b/printBoxNoNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "id": "1981417716650496"
+    }
+    method: post
+    title: 拆零复核箱标签打印接口
+
+cl_fh_get_product:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2b/queryRecommendConsumable/1867818750628352
+    method: post
+    title: 拆零复核索取商品接口
+
+cl_fh_save_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2b/reviewDone
+    data: {
+      "id": "1981422733349376"
+    }
+    method: post
+    title: 拆零复核接口
+
+cl_fh_down_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2b/saveReviewData
+    data: {
+      "id": "1981422733349376",
+      "barcode": "M12321321",
+      "batchNo": "20240910001",
+      "reviewQty": 5.111
+    }
+    method: post
+    title: 拆零复核完成接口
+
+jh_fh_wait_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/queryOutReviewByWaitTake
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 集货复核未索取任务列表接口
+
+jh_fh_wait_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/queryOutReviewDt/
+    method: post
+    title: 集货复核未索取任务详情接口
+
+jh_fh_wait_down:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/confirmGoods
+    method: post
+    title: 集货复核手动集货接口
+
+
+jh_fh_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/queryOutReviewByTaken
+    data: {
+      "ownerId": "",
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 集货复核列表接口
+
+
+jh_fh_task:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/takeTask
+    method: post
+    title: 集货复核索取任务接口
+
+jh_fh_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/queryOutReviewDt/
+    method: post
+    title: 集货复核详情明细接口
+
+jh_fh_down:
+  - url: http://192.168.111.232:17777/wms_232/ob/outReview/oneKeyReviewDoneForPC
+    method: post
+    title: 集货复核一键复核接口
+
+create_erp_special_data:
+  - url: http://192.168.111.232:17777/oms_232/api/erp/apiOutOrder/addOutOrder
+    method: post
+    data: {
+      "origCompanyCode": "ZHQC",
+      "origNo": "erp-test-20240902006",
+      "orderType": "PFXSD",
+      "origSys": "CQ_ERP",
+      "origWarehouseCode": "MRCK",
+      "ownerCode": "ZHQCHZ",
+      "partnerCode": "Stest002",
+      "partnerType": "SUPPLIER",
+      "erpCarrierCode": "erp_car",
+      "orderPrice": 10.00,
+      "orgCode": "110013687",
+      "productFormType": "YP",
+      "jobType": "TSDD",
+      "province": "山东省",
+      "city": "青岛市",
+      "area": "市北区",
+      "contactAddr": "青岛市市北区昆明路",
+      "contactName": "测试人员",
+      "contactTel": "8888888",
+      "contactPhone": "18660282391",
+      "confirmTime": "2024-08-14 13:54:57",
+      "purchName": "测试人员",
+      "shopOrderNo": "",
+      "emailAddr": "11111@qq.com",
+      "payMethod": "支付宝",
+      "buyerRemark": "",
+      "buyerMsg": "",
+      "sellerRemark": "",
+      "deliveryMethod": "TY",
+      "sourceCode": "123123",
+      "discountPrice": 10.00,
+      "oaid": "",
+      "erpCreator": "李鸿宾",
+      "erpCreateTime": "2024-08-14 13:54:57",
+      "erpUpdater": "李鸿宾",
+      "erpUpdateTime": "2024-08-14 13:54:57",
+      "buyer": "李鸿宾",
+      "isModifyPricePrint": 1,
+      "planShipDate": "2024-08-14 13:54:57",
+      "orderPrintType": 1,
+      "isPrintUpstreamOrder": 0,
+      "isPrintUpstreamInvoice": 0,
+      "saleManager": "",
+      "saleDepartmentCode": "G1004",
+      "saleZoneCode": "G1004",
+      "saleOfficeCode": "G1004",
+      "businessManager": "李鸿宾",
+      "isGoodsWithInvoice": 0,
+      "inWarehouseName": "",
+      "returnReason": "",
+      "invoiceUrl": "",
+      "isClearTextOrder": 1,
+      "streetName": "山东省青岛市市北区",
+      "dtList": [
+        {
+          "origRowNo": 0,
+          "skuCode": "M12321321",
+          "outOrderQty": 0.001,
+          "stockStatus": "HG",
+          "limitValid": 1,
+          "upstreamInvoiceUrl": "",
+          "origSupplierCode": "Stest002",
+          "productionBatch": "20240910001",
+          "limitValidBegin": "2024-07-25 13:54:57",
+          "limitValidEnd": "2026-07-25 13:54:57",
+          "putTogetherNo": "",
+          "discountFee": 0.00,
+          "productDate": "2024-01",
+          "priceIncludingTax": 1.00,
+          "amountExcludingTax": 1.00,
+          "taxAmount": 1.00,
+          "amountTotal": 10.00,
+          "invalidDate": "2024-12",
+          "stockFlag": 0,
+          "paidPricePerUnit": 10,
+          "cePerUnitInclTax": 10,
+          "totalAmountInclTax": 10,
+          "pricePerUnitExclTax": 10,
+          "totalAmountExclTax": 10,
+          "totalAmountWithTax": 10
+        }
+      ],
+      "companyCode": "ZHQC",
+      "whId": 0
+    }
+    title: erp新增特殊订单接口
+
+special_order_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/specialOutOrder/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 特殊订单列表查询接口
+
+special_order_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/specialOutOrder/querySpecialOutOrderDt/
+    method: post
+    title: 特殊订单详情明细查询接口
+
+special_out_order_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/specialOutOrder/oneClickStockOut
+    data: {
+      "meansOfTransport": "",
+      "soId": "1982399061266944"
+    }
+    method: post
+    title: 特殊订单一键出库接口
+
+out_oder_print_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 出库单打印列表查询接口
+
+out_oder_print_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/queryDetail/
+    method: post
+    title: 出库单打印列表详情查询接口
+
+out_oder_print_sale:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/printSoCompanionNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        1982397393031680
+      ]
+    }
+    method: post
+    title: 销售单打印
+
+out_oder_print_cold:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/printColdLinkNew
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        1982391724184064
+      ]
+    }
+    method: post
+    title: 冷链交接单打印
+
+out_oder_print_box_no:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/printReviewLabel
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        1982391724184064
+      ]
+    }
+    method: post
+    title: 出库箱标签打印
+
+create_toc_out_order:
+  - url: http://192.168.111.232:17777/wms_232/order/outOrder/add
+    data: {
+      "jobType": "PTDD",
+      "origSys": "WMS",
+      "orderStatus": "NEW_CREATE",
+      "country": "CHN",
+      "ownerName": "智汇奇策科技有限公司",
+      "orgId": "1770560509055488",
+      "orgName": "零售事业部",
+      "provinceCode": "370000",
+      "provinceName": "山东省",
+      "cityId": "135",
+      "cityCode": "370200",
+      "cityName": "青岛市",
+      "areaId": "1226",
+      "areaCode": "370203",
+      "areaName": "市北区",
+      "origSysName": "WMS",
+      "productFormType": "YP",
+      "isPrescription": null,
+      "wmsBusinessType": "TO_C",
+      "origNo": "test-erp-20241101005",
+      "ownerId": "1770570116141568",
+      "orderType": "FHD",
+      "partnerType": "STORE",
+      "partnerCode": "sypmyd",
+      "partnerName": "青岛漱玉平民大药房台东店",
+      "partnerId": "1848003360018944",
+      "partnerAddr": "山东省青岛市市北区台东六路",
+      "partnerMnemonicCode": "sypm1",
+      "erpCarrierId": "1870670220923392",
+      "erpCarrierName": "苍穹运输商",
+      "deliveryMethod": "TY",
+      "contactName": "测试人员",
+      "contactTel": "18660282391",
+      "provinceId": "15",
+      "contactAddr": "山东省青岛市市北区",
+      "orderPrice": "11341.33",
+      "discountPrice": "11341.33",
+      "extendReq": {
+        "orderPrice": "11341.33",
+        "discountPrice": "11341.33"
+      },
+      "dtList": [
+        {
+          "productionDateType": "1",
+          "invalidDateType": "1",
+          "skuId": "1867818750628352",
+          "key": "1867818750628352",
+          "companyCode": "ZHQC",
+          "whId": 1,
+          "id": "1867818750628352",
+          "remark": "",
+          "createTime": "2024-08-12 11:23:29",
+          "creator": "lhb001",
+          "creatorName": "李鸿宾",
+          "updateTime": "2024-08-30 15:56:52",
+          "updater": "luanfujian",
+          "updaterName": "栾福建",
+          "createTimeStr": "2024-08-12 11:23:29",
+          "updateTimeStr": "2024-08-30 15:56:52",
+          "ownerId": 1770570116141568,
+          "sysSkuCode": "SS24081200001",
+          "skuCode": "M12321321",
+          "skuName": "氨糖",
+          "origSys": "WMS",
+          "spec": "50g",
+          "ephedrine": 1,
+          "tradeName": "氨糖",
+          "skuCategoryId": 1770467433878016,
+          "brandName": "",
+          "barcode": "9093281111",
+          "mainUnit": "青岛海尔科技有限公司",
+          "length": 2,
+          "width": 3,
+          "height": 5,
+          "vol": 30,
+          "grossWeight": 1,
+          "netWeight": 1,
+          "abc": "A",
+          "zjAbc": "A",
+          "mfgId": 1848005222961664,
+          "mfg": "青岛海尔生物医药科技有限公司",
+          "outFactoryCode": "",
+          "model": "",
+          "originCountry": "山东省青岛市市北区",
+          "logistics": "",
+          "isBatchManage": 1,
+          "isValidity": 0,
+          "validityType": "",
+          "validityDay": 0,
+          "warmValidityDay": 30,
+          "isValuables": 0,
+          "isCombination": 0,
+          "isGift": 0,
+          "isConsumables": 0,
+          "isChangeable": 0,
+          "isProneToMistakes": 0,
+          "isHeteromorphicProduct": 0,
+          "perQty": 105,
+          "midPackQty": 11,
+          "isEnable": 1,
+          "auditOpinion": null,
+          "auditStatus": null,
+          "auditTime": null,
+          "auditName": null,
+          "barcodeTwo": "",
+          "barcodeThree": "",
+          "taxCode": "",
+          "taxName": "",
+          "taxFee": null,
+          "tempControl": "CW",
+          "scatteredProperties": "",
+          "gmpCertNo": "123",
+          "approvalNumber": "国药准字氨糖",
+          "categoryPrincipal": "",
+          "permitHolder": "",
+          "qtyStandard": "",
+          "mnemonicCode": "",
+          "limitSaleDay": 0,
+          "routeOfAdministration": "",
+          "tempMax": null,
+          "tempMin": null,
+          "minInvoicingUnit": null,
+          "optimistic": 0,
+          "packFactoryId": 0,
+          "productFormType": "YP",
+          "isLimitMidPack": 1,
+          "hasAnaleptic": 0,
+          "tempCondition": null,
+          "diCode": null,
+          "erpUpdaterName": null,
+          "erpUpdateTime": null,
+          "erpCreatorName": null,
+          "erpCreateTime": null,
+          "creditType": null,
+          "medicalInsuranceCode": null,
+          "instrumentModel": null,
+          "entrustMfgId": null,
+          "hasAnalepticName": "否",
+          "ephedrineName": "是",
+          "isDoubleCheckName": "否",
+          "isDoubleCheck": 0,
+          "isFirstCamp": 0,
+          "isFirstCampName": "否",
+          "isLimitMidPackName": "是",
+          "prodLicenseCode": null,
+          "ownerCode": "ZHQCHZ",
+          "ownerName": "智汇奇策科技有限公司",
+          "skuCategoryName": "药品",
+          "skuCategoryCode": null,
+          "skuCategoryParentId": null,
+          "productFormTypeName": "药品",
+          "maintenanceType": "",
+          "maintenanceTypeName": null,
+          "skuCategorySecondId": null,
+          "drugForm": "_",
+          "drugFormSpec": "",
+          "grmpCertificateNo": null,
+          "grmpExpirationDate": "2030-08-31",
+          "pzwhExpirationDate": null,
+          "bomVOList": null,
+          "consumablesVOList": null,
+          "certificateVOList": null,
+          "approvalNumberList": null,
+          "gspData": null,
+          "imageVOList": null,
+          "packingVOList": null,
+          "tempControlName": "常温",
+          "isEnableName": "是",
+          "scatteredPropertiesName": null,
+          "packFactoryName": "",
+          "entrustMfgName": "",
+          "isValidityName": "否",
+          "sumUsableQty": null,
+          "auditStatusName": null,
+          "isDrugSuperCode": 0,
+          "isDrugSuperCodeName": "否",
+          "auditorTime": null,
+          "outOrderQty": 110.11,
+          "paidPricePerUnit": 103,
+          "productionBatch": "20240910001",
+          "stockStatus": "HG",
+          "stockStatusName": "合格",
+          "productDate": "2024-01",
+          "invalidDate": "2024-12",
+          "limitValid": 0,
+          "limitValidName": "不限制",
+          "_X_ROW_KEY": "row_29"
+        }
+      ]
+    }
+    method: post
+    title: toc出库订单新增
+
+toc_seeding_get_mission:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfo/scanPickOrderNo/
+    method: post
+    title: toc播种获取拣货单号接口
+
+toc_seeding_get_product:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfo/scanSkuCode/
+    method: post
+    title: toc播种获取产品信息接口
+
+toc_seeding_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/sowInfo/saveSowScanRecord/
+    method: post
+    title: toc播种接口
+
+toc_fh_get_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2c/initReviewData
+    data: {
+      "checkPlatformId": 1802565483483648,
+      "soNo": "SO241101000000014"
+    }
+    method: post
+    title: tocso单号生成复核任务接口
+
+toc_fh_product_data:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2c/saveReviewData
+    data: {
+      "id": "1982606986580480",
+      "reviewQty": 110.11,
+      "boxNo": 1,
+      "barcode": "M12321321",
+      "batchNo": "20240910001"
+    }
+    method: post
+    title: toc复核商品接口
+
+toc_fh_down:
+  - url: http://192.168.111.232:17777/wms_232/ob/review/b2c/reviewDone
+    data: {
+      "id": "1982606986580480",
+      "reviewPersonTwo": ""
+    }
+    method: post
+    title: toc复核完成接口
+
+drug_print_page_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderDrugReport/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 药检报告打印列表查询接口
+
+drug_print_report:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/printDrugReport
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        1982471238390272
+      ]
+    }
+    method: post
+    title: 药检报告打印接口
+
+with_product_print:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/printSoUpstreamCompanion
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        1982471238390272
+      ]
+    }
+    method: post
+    title: 上游随货同行单打印接口
+
+invoice_print:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderPrint/printUpstreamInvoice
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "soIdList": [
+        1982471238390272
+      ]
+    }
+    method: post
+    title: 发票打印接口
+
+drug_prin_detail_info:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderDrugReport/queryDetail/
+    method: post
+    title: 药检报告详情明细查询接口
+
+check_drug_print:
+  - url: http://192.168.111.232:17777/wms_232/ob/outOrderDrugReport/printCheckYjbg
+    method: post
+    title: 药检报告打印确认接口

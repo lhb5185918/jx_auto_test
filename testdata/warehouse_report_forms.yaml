@@ -1,0 +1,747 @@
+location_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/wh/whLotQueryTool/pageInfo
+    data: {
+      "whAreaIdList": [ ],
+      "whZoneIdList": [ ],
+      "zoneGroupList": [ ],
+      "lotStatusList": [ ],
+      "lotUseStatusList": [ ],
+      "lotTypeList": [ ],
+      "stockStatusList": [ ],
+      "tcTypeList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 货位快捷查询接口
+
+inventory_container_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/stock/stockContainerRpt/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存容器查询接口
+
+
+inventory_total_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/stock/stockTotalRpt/pageInfo
+    data: {
+      "orgIdList": [ ],
+      "stockStatusList": [ ],
+      "tempControlList": [ ],
+      "skuCategoryIdList": [ ],
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存总账查询接口
+
+inventory_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/stock/stockInfoRpt/pageInfo
+    data: {
+      "skuCategoryIdList": [ ],
+      "tempControlList": [ ],
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存明细查询件接口
+
+
+inventory_sale_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/stock/stockFlowRpt/pageInfo
+    data: {
+      "ownerId": null,
+      "orgIdList": null,
+      "fmLotCode": null,
+      "productionBatch": null,
+      "toLotCode": null,
+      "businessNo": null,
+      "skuCode": null,
+      "operator": null,
+      "batchNo": null,
+      "asnNo": null,
+      "stockStatusList": [ ],
+      "businessTypeList": [ ],
+      "stockChangeType": null,
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存交易流水查询接口
+
+
+inventory_age_forms_select:
+  - url: http://192.168.111.232:17777/reporter//stock/stockAgeAnalysisRpt/pageInfo
+    data: {
+      "ownerIdList": [ ],
+      "orgIdList": [ ],
+      "stockStatusList": [ ],
+      "tempConditionList": [ ],
+      "skuCategoryIdList": [ ],
+      "zoneGroupList": [ ],
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库龄分析查询接口
+
+inventory_wait_allocation_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/stock/waitCostStockRpt/pageInfo
+    data: {
+      "reviewTimeFrom": null,
+      "reviewTimeTo": null,
+      "soNo": null,
+      "cusOrderNo": null,
+      "batchNo": null,
+      "productionBatch": null,
+      "ownerId": null,
+      "skuIdArray": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 待扣减库存查询接口
+
+inventory_status_change_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/stock/stockStatusChangeRpt/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存状态变更接口
+
+in_order_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ib/inOrderRecordRpt/pageInfo
+    data: {
+      "origNo": null,
+      "origPurchaseOrderNo": null,
+      "orderTypeList": [ ],
+      "wmsBusinessType": null,
+      "productFormType": null,
+      "origSys": null,
+      "tempControlList": [ ],
+      "cooperativePartnerName": null,
+      "supplierId": null,
+      "orderStatusList": [ ],
+      "skuCategoryIdList": null,
+      "skuIdArray": null,
+      "sourceProductionBatch": null,
+      "mfgId": null,
+      "permitHolder": null,
+      "ownerId": null,
+      "orgIdList": null,
+      "jobType": null,
+      "buyer": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库订单明细表查询接口
+
+in_order_resave_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ib/asnRecRecordRpt/pageInfo
+    data: {
+      "tempControlList": [ ],
+      "asnStatusList": [ ],
+      "asnTypeList": [ ],
+      "skuCategoryIdList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库收货明细表查询接口
+
+in_order_check_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ib/inQcRecordRpt/pageInfo
+    data: {
+      "erpOrderNo": null,
+      "origPurchaseOrderNo": null,
+      "asnNo": null,
+      "qcNo": null,
+      "productionBatch": null,
+      "batchNo": null,
+      "asnTypeList": [ ],
+      "wmsBusinessType": null,
+      "productFormType": null,
+      "orderSource": null,
+      "tempControlList": [ ],
+      "cooperativePartnerName": null,
+      "supplierId": null,
+      "qcStatusList": null,
+      "skuCategoryIdList": [ ],
+      "skuIdArray": null,
+      "ownerId": null,
+      "orgIdList": null,
+      "jobType": null,
+      "mfgId": null,
+      "permitHolder": null,
+      "recUserName": null,
+      "oneQcUserName": null,
+      "buyer": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库验收明细表查询接口
+
+
+in_order_put_shelf_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ib/inPutShelfDtRpt/pageInfo
+    data: {
+      "skuIdArray": null,
+      "erpOrderNo": null,
+      "origPurchaseOrderNo": null,
+      "asnNo": null,
+      "originOrderNo": null,
+      "asnTypeList": [ ],
+      "putShelfTypeList": [ ],
+      "wmsBusinessType": null,
+      "productFormType": null,
+      "orderSource": null,
+      "jobType": null,
+      "tempControlList": [ ],
+      "cooperativePartnerName": null,
+      "supplierId": null,
+      "putShelfStatusList": [ ],
+      "skuCategoryIdList": [ ],
+      "ownerId": null,
+      "orgIdList": null,
+      "stockStatusList": [ ],
+      "putShelfUserName": null,
+      "productionBatch": null,
+      "recommendZoneIdList": null,
+      "recommendLotId": null,
+      "putShelfZoneGroupList": [ ],
+      "putShelfZoneIdList": null,
+      "putShelfLotId": null,
+      "orderByColumnList": [
+        "create_time desc"
+      ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库上架明细表查询接口
+
+in_order_order_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ib/enterWarehouseDtRpt/pageInfo
+    data: {
+      "putShelfStatusList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库单明细表查询接口
+
+in_order_work_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ib/inOrderWorkGatherRpt/pageInfo
+    data: {
+      "putShelfStatusList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库订单作业汇总表查询接口
+
+in_order_monitor_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/ib/enterWarehouseOngoing/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 入库监控报表查询接口
+
+warehouse_inside_hc_forms_select:
+  - url: http://192.168.111.232:17777/reporter/inv/consumableDtLog/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 耗材库存记录查询接口
+
+warehouse_inside_machining_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inv/moRecord/queryListByCondition
+    data: {
+      "orgIdList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 加工明细记录查询接口
+
+warehouse_inside_product_change_forms_select:
+  - url: http://192.168.111.232:17777/reporter/inv/cargoTransferDetails/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 货转单明细记录查询接口
+
+warehouse_inside_replenish_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inv/replenishRecordRpt/pageInfo
+    data: {
+      "wmsBusinessType": null,
+      "productFormType": null,
+      "replenishType": null,
+      "replenishStatusList": [ ],
+      "replenishNo": null,
+      "downTaskNo": null,
+      "upShelfUserName": null,
+      "downShelfUserName": null,
+      "ownerId": null,
+      "orgId": null,
+      "skuIdArray": null,
+      "productionBatch": null,
+      "fmLotId": null,
+      "toLotId": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 补货报表查询接口
+
+warehouse_product_batch_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inv/batchModifyRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 批次调整记录报表查询接口
+
+warehouse_lock_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inv/inventoryForzenRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存锁定记录查询接口
+
+warehouse_un_lock_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inv/inventoryUnforzenRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 库存解锁记录查询接口
+
+warehouse_move_forms_select:
+  - url: http://192.168.111.232:17777/reporter/inv/moveZoneDetailRecord/pageInfo
+    data: {
+      "moveLotOrderStatusList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 移库明细查询接口
+
+warehouse_move_location_forms_select:
+  - url: http://192.168.111.232:17777/reporter/inv/moveLotDetailRecord/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 移库明细查询接口
+
+warehouse_bhg_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inv/ncrRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 不合格产品查询接口
+
+warehouse_stock_taking_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/inventoryAdjRecord/pageInfo
+    data: {
+      "createTimeFrom": null,
+      "createTimeTo": null,
+      "productFormType": null,
+      "sourceType": null,
+      "adjStatusList": [ ],
+      "adjNo": null,
+      "origNo": null,
+      "ownerId": null,
+      "orgIdList": null,
+      "skuIdArray": null,
+      "productionBatch": null,
+      "zoneIdList": null,
+      "lotId": null,
+      "adjDtStatusList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 盘盈盘亏列表查询接口
+
+out_order_allocation_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/outOrderAssignDtRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 出库订单分配明细查询接口
+
+out_order_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/outOrderDtRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 出库订单明细查询接口
+
+
+out_order_cancel_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/outCancelOrderRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 取消订单明细查询接口
+
+out_order_pick_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/ob/pickRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 拣货明细查询接口
+
+out_order_heavy_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/ob/weighRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 称重明细查询接口
+
+
+out_order_review_process_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/sowReviewProgressRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 分拣复核进度查询接口
+
+out_order_picking_process_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/pickProgress/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 拣货进度查询接口
+
+out_order_work_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/outOrderWorkRecordRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 出库作业记录查询接口
+
+out_order_move_zcq_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter//report/ob/stagingAreaRecord/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 暂存区移位记录查询接口
+
+out_order_frequency_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/ob/skuOutFrequency/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50,
+      "zsFlat": "ZJ"
+    }
+    method: post
+    title: 出库频次查询接口
+
+out_order_statistic_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/ob/deliveryStatisticsRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 发货统计列表查询接口
+
+out_order_monitor_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/ob/deliveryMonitoringRpt/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 发货监控列表查询接口
+
+out_order_instruction_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/ob/outCommandRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 出库指令查询接口
+
+delivery_cars_detail_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/dispatch/vehicleRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 出车车次查询接口
+
+delivery_logistics_detail_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/dispatch/vehicleRpt/pageInfo
+    data: {
+      "erpOrderNo": null,
+      "soNo": null,
+      "expressNo": null,
+      "consignmentId": null,
+      "origExpressNo": null,
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "customerContact": null,
+      "customerTel": null,
+      "confirmTimeFrom": null,
+      "confirmTimeTo": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 物流单号修改记录
+
+delivery_history_detail_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/report/loadingOrder/distribution/pageInfo
+    data: {
+      "origBillNo": null,
+      "contactUnit": null,
+      "soNo": null,
+      "loadingOrderNo": null,
+      "driverIds": null,
+      "vehicleIds": null,
+      "deliveryMethod": null,
+      "soTypeList": [ ],
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "saleOfficeOrgIdList": null,
+      "jobType": null,
+      "isColdChain": null,
+      "isReLoading": null,
+      "isCharging": null,
+      "isSkipTran": null,
+      "orgIdList": null,
+      "loadingOrderType": "PSZCD",
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 配送单历史查询
+
+
+consignment_history_detail_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/report/loadingOrder/consignment/pageInfo
+    data: {
+      "driverIds": null,
+      "vehicleIds": null,
+      "origBillNo": null,
+      "contactUnit": null,
+      "soNo": null,
+      "loadingOrderNo": null,
+      "deliveryMethod": null,
+      "soTypeList": [ ],
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "saleOfficeOrgIdList": null,
+      "expressNo": null,
+      "orgIdList": null,
+      "jobType": null,
+      "isColdChain": null,
+      "isReLoading": null,
+      "isCharging": null,
+      "isSkipTran": null,
+      "consignmentId": null,
+      "loadingOrderType": "TYZCD",
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 托运单历史查询
+
+get_car_wait_order_detail_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/report/retentionOrder/pageInfo
+    data: {
+      "retentionDays": 1,
+      "soTypeList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 装车确认滞留单据查询接口
+
+delivery_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/report/deliveryTransReport/pageInfo
+    data: {
+      "driverIds": null,
+      "vehicleIds": null,
+      "soNo": null,
+      "erpOrderNo": null,
+      "loadingOrderNo": null,
+      "wmsBusinessType": null,
+      "soTypeList": [ ],
+      "jobType": null,
+      "jobStatusList": [ ],
+      "loadingOrderStatusList": [ ],
+      "contactUnit": null,
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "saleOfficeOrgIdList": null,
+      "loadingOrderCreateTimeFrom": null,
+      "loadingOrderCreateTimeTo": null,
+      "loadingOrderConfirmTimeFrom": null,
+      "loadingOrderConfirmTimeTo": null,
+      "returnTimeFrom": null,
+      "returnTimeTo": null,
+      "uploadFileStatusList": null,
+      "isColdChain": null,
+      "isSpecialDrug": null,
+      "isCharging": null,
+      "startStagingArea": null,
+      "endStagingArea": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 配送当前与历史查询接口
+
+consignment_forms_select:
+  - url: http://192.168.111.232:17777/tms_232/report/invoiceTransReport/pageInfo
+    data: {
+      "driverIds": null,
+      "vehicleIds": null,
+      "soNo": null,
+      "erpOrderNo": null,
+      "loadingOrderNo": null,
+      "wmsBusinessType": null,
+      "soTypeList": [ ],
+      "jobType": null,
+      "jobStatusList": [ ],
+      "loadingOrderStatusList": [ ],
+      "contactUnit": null,
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "saleOfficeOrgIdList": null,
+      "consignmentId": null,
+      "waybillNo": null,
+      "loadingOrderCreateTimeFrom": null,
+      "loadingOrderCreateTimeTo": null,
+      "loadingOrderConfirmTimeFrom": null,
+      "loadingOrderConfirmTimeTo": null,
+      "returnTimeFrom": null,
+      "returnTimeTo": null,
+      "uploadFileStatusList": null,
+      "isColdChain": null,
+      "isSpecialDrug": null,
+      "isCharging": null,
+      "isPlanCar": null,
+      "startStagingArea": null,
+      "endStagingArea": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 托运当前与历史查询接口
+
+work_statistics_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/rpt/statistics/workloadStatisticsRpt/pageInfo
+    data: {
+      "jobTypeList": [ ],
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 作业量统计接口
+
+b2b_relation_detail_forms_select:
+  - url: http://192.168.111.232:17777/reporter/report/statistics/b2bRelationRpt/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: b2b委托订单关系查询接口

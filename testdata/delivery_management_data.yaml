@@ -1,0 +1,194 @@
+delivery_arrange_page_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/plan/unset/pageInfo
+    data: {
+      "saleZoneOrgText": "",
+      "saleDepartmentOrgText": "",
+      "saleOfficeOrgText": "",
+      "jobStatusList": [
+        "OUT_REVIEW_ALL"
+      ]
+    }
+    method: post
+    title: 配送排车列表查询接口
+
+create_delivery_loading_order:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/plan/add
+    method: post
+    title: 配送排车装车单创建接口
+
+car_delivery_page_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/plan/set/pageInfo
+    data: {
+      "loadingOrderNo": null,
+      "origBillNo": null,
+      "contactUnit": null,
+      "distributionDispatcher": null,
+      "ownerId": null,
+      "saleDepartmentOrgIdList": null,
+      "saleZoneOrgIdList": null,
+      "saleOfficeOrgIdList": null,
+      "soNo": null,
+      "createTimeFrom": null,
+      "createTimeTo": null,
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 装车单查询接口
+
+append_order_car:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/plan/append/
+    method: post
+    title: 配送装车接口
+
+car_delivery_down_page_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/issue/notissue/set/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 配送装车下发列表查询接口
+
+car_delivery_down_detail_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/issue/dt/pageInfo
+    data: {
+      "orderByColumnList": [ ],
+      "loadingOrderId": "1982730217017856"
+    }
+    method: post
+    title: 配送装车下发列表详情查询接口
+
+car_driver_select:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/issue/add/vehicle
+    data: {
+      "id": "1982730217017856",
+      "loadingOrderDispatchUpdateReq": {
+        "id": "1982730217017856",
+        "driver": "测试司机",
+        "carrierId": "1822781910225408",
+        "vehicleId": "1822783937122816",
+        "loadCapacity": 100,
+        "brandModel": "斯堪尼亚",
+        "licensePlate": "鲁bqp01",
+        "vehicleSelfStatus": "正常",
+        "vehicleType": "冷藏车",
+        "driverId": "1822782824944128",
+        "carrierFullName": "青岛啤酒运输公司",
+        "carrierContactName": "测试人员",
+        "carrierContactTel": "18660282391",
+        "carrierTel": "18660282391",
+        "carrierAddr": "山东省青岛市市北区",
+        "isConsignment": 0
+      }
+    }
+    method: post
+    title: 配送装车下发司机选择接口
+
+delivery_order_down:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/issue/batch/issued
+    method: post
+    title: 配送装车单下发接口
+
+delivery_check_page_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/confirm/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 配送装车确认列表查询接口
+
+delivery_check_detail_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/confirm/dt/pageInfo
+    data: {
+      "loadingOrderId": "1982743033958912",
+      "orderByColumnList": null
+    }
+    method: post
+    title: 配送装车确认详情明细查询接口
+
+delivery_order_print:
+  - url: http://192.168.111.232:17777/tms_232/tms/print/distribution/loadingOrder
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "loadingOrderIds": [
+        "1982743033958912"
+      ],
+      "flag": 1
+    }
+    method: post
+    title: 配送装车单打印接口
+
+delivery_drug_print:
+  - url: http://192.168.111.232:17777/tms_232/tms/print/distribution/special
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "loadingOrderIds": [
+        "1982743033958912"
+      ],
+      "flag": 0
+    }
+    method: post
+    title: 配送特管药打印接口
+
+delivery_cold_print:
+  - url: http://192.168.111.232:17777/tms_232/tms/print/distribution/coldChain
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "loadingOrderIds": [
+        "1982743033958912"
+      ],
+      "flag": 0
+    }
+    method: post
+    title: 配送装车冷链装车单打印
+
+delivery_summary_print:
+  - url: http://192.168.111.232:17777/tms_232/tms/print/distribution/summary
+    data: {
+      "mac": "B0-7B-25-29-F7-04",
+      "loadingOrderIds": [
+        "1982743033958912"
+      ],
+      "flag": 1
+    }
+    method: post
+    title: 配送装车单汇总单打印
+
+delivery_check:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/confirm/batchConfirm/direct
+    method: post
+    title: 配送装车单直接确认接口
+
+delivery_back_page_info:
+  - url: http://192.168.111.232:17777/tms_232/tms/loadingOrder/distribution/confirm/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 配送装车单直接确认接口
+
+delivery_get_back_page_info:
+  - url: http://192.168.111.232:17777/tms_232//tms/loadingOrder/distribution/back/pageInfo
+    data: {
+      "orderByColumnList": null,
+      "page": 1,
+      "limit": 50
+    }
+    method: post
+    title: 配送返回列表查询接口
+
+delivery_get_back_detail_info:
+  - url: http://192.168.111.232:17777/tms_232//tms/loadingOrder/distribution/back/dt/pageInfo
+    data: {
+      "loadingOrderId": "1982772555895296",
+      "orderByColumnList": [ ]
+    }
+    method: post
+    title: 配送返回列表装车单详情查询接口
