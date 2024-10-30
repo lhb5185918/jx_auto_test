@@ -1,0 +1,10 @@
+result_data:
+- data:
+    failed: 0
+    failed_logs: []
+    failed_tests: []
+    passed: 8
+    slow_tests:
+    - - test_so_allocation_data[so_allocation_data0]
+      - 4.068314099999999
+    total: 8

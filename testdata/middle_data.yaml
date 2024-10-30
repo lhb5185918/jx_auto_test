@@ -5,24 +5,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491179352576
-      asnNo: ASN24101000069
+      asnId: 1979805925642752
+      asnNo: ASN24103000001
       asnStatus: CJ
       asnStatusName: 创建
       asnType: CGDDZP
       asnTypeName: 采购订单(直配)
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛医药科技集团有限公司
-      createTime: '2024-10-10 13:59:29'
+      createTime: '2024-10-30 14:02:44'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest369025
-      inOrderNo: R20241010000064
+      erpOrderNo: autotest633005
+      inOrderNo: R20241025000008
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -45,7 +45,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491179368960
+        asnDtId: 1979805925691904
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -88,7 +88,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -114,24 +114,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491203404288
-      asnNo: ASN24101000070
+      asnId: 1979805951152640
+      asnNo: ASN24103000002
       asnStatus: CJ
       asnStatusName: 创建
       asnType: CGDD
       asnTypeName: 采购订单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛医药科技集团有限公司
-      createTime: '2024-10-10 13:59:31'
+      createTime: '2024-10-30 14:02:46'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest727235
-      inOrderNo: R20241010000059
+      erpOrderNo: autotest609224
+      inOrderNo: R20241025000003
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -154,7 +154,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491203420672
+        asnDtId: 1979805951169024
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -197,7 +197,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -223,24 +223,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491226440192
-      asnNo: ASN24101000071
+      asnId: 1979805977940480
+      asnNo: ASN24103000003
       asnStatus: CJ
       asnStatusName: 创建
       asnType: DBRKD
       asnTypeName: 调拨入库单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: null
-      createTime: '2024-10-10 13:59:32'
+      createTime: '2024-10-30 14:02:47'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest197597
-      inOrderNo: R20241010000066
+      erpOrderNo: autotest632665
+      inOrderNo: R20241025000010
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -263,7 +263,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491226456576
+        asnDtId: 1979805977973248
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -306,7 +306,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -332,24 +332,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491249508864
-      asnNo: ASN24101000072
+      asnId: 1979806004498944
+      asnNo: ASN24103000004
       asnStatus: CJ
       asnStatusName: 创建
       asnType: DBTCD
       asnTypeName: 调拨退仓单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: null
-      createTime: '2024-10-10 13:59:33'
+      createTime: '2024-10-30 14:02:49'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest309797
-      inOrderNo: R20241010000067
+      erpOrderNo: autotest648783
+      inOrderNo: R20241025000011
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -372,7 +372,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491249525248
+        asnDtId: 1979806004515328
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -415,7 +415,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -441,24 +441,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491277722112
-      asnNo: ASN24101000073
+      asnId: 1979806030385664
+      asnNo: ASN24103000005
       asnStatus: CJ
       asnStatusName: 创建
       asnType: LYTHD
       asnTypeName: 领样退货单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛医药科技集团有限公司
-      createTime: '2024-10-10 13:59:35'
+      createTime: '2024-10-30 14:02:50'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest717135
-      inOrderNo: R20241010000068
+      erpOrderNo: autotest260173
+      inOrderNo: R20241025000012
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -481,7 +481,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491277738496
+        asnDtId: 1979806030402048
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -524,7 +524,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -550,24 +550,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491301347840
-      asnNo: ASN24101000074
+      asnId: 1979806056485376
+      asnNo: ASN24103000006
       asnStatus: CJ
       asnStatusName: 创建
       asnType: PFXSTHD
       asnTypeName: 批发销售退货单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛测试客户
-      createTime: '2024-10-10 13:59:36'
+      createTime: '2024-10-30 14:02:52'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: 青岛测试客户
       ejectConfirmationBox: false
-      erpOrderNo: autotest538540
-      inOrderNo: R20241010000063
+      erpOrderNo: autotest816032
+      inOrderNo: R20241025000007
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -590,7 +590,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491301380608
+        asnDtId: 1979806056501760
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -633,7 +633,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -659,24 +659,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491323564544
-      asnNo: ASN24101000075
+      asnId: 1979806081864192
+      asnNo: ASN24103000007
       asnStatus: CJ
       asnStatusName: 创建
       asnType: TCSQDZP
       asnTypeName: 退仓申请单(直配)
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛漱玉平民大药房台东店
-      createTime: '2024-10-10 13:59:38'
+      createTime: '2024-10-30 14:02:54'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest879572
-      inOrderNo: R20241010000065
+      erpOrderNo: autotest230947
+      inOrderNo: R20241025000009
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -699,7 +699,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491323597312
+        asnDtId: 1979806081880576
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -742,7 +742,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -768,24 +768,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491347386880
-      asnNo: ASN24101000076
+      asnId: 1979806109651456
+      asnNo: ASN24103000008
       asnStatus: CJ
       asnStatusName: 创建
       asnType: TCSQD
       asnTypeName: 退仓申请单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛漱玉平民大药房台东店
-      createTime: '2024-10-10 13:59:39'
+      createTime: '2024-10-30 14:02:55'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest158738
-      inOrderNo: R20241010000061
+      erpOrderNo: autotest695964
+      inOrderNo: R20241025000005
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -808,7 +808,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491347403264
+        asnDtId: 1979806109667840
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -851,7 +851,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -877,24 +877,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491368833536
-      asnNo: ASN24101000077
+      asnId: 1979806135652864
+      asnNo: ASN24103000009
       asnStatus: CJ
       asnStatusName: 创建
       asnType: WDTKSQD
       asnTypeName: 网店退款退货单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛漱玉平民大药房台东店
-      createTime: '2024-10-10 13:59:41'
+      createTime: '2024-10-30 14:02:57'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest508203
-      inOrderNo: R20241010000062
+      erpOrderNo: autotest265563
+      inOrderNo: R20241025000006
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -917,7 +917,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491368849920
+        asnDtId: 1979806135685632
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -960,7 +960,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -986,24 +986,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491391689216
-      asnNo: ASN24101000078
+      asnId: 1979806161687040
+      asnNo: ASN24103000010
       asnStatus: CJ
       asnStatusName: 创建
       asnType: YCRKD
       asnTypeName: 移仓入库单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: null
-      createTime: '2024-10-10 13:59:42'
+      createTime: '2024-10-30 14:02:58'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest980411
-      inOrderNo: R20241010000069
+      erpOrderNo: autotest126534
+      inOrderNo: R20241025000013
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -1026,7 +1026,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491391705600
+        asnDtId: 1979806161703424
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -1069,7 +1069,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -1095,24 +1095,24 @@ rk_order_data:
       alreadyRecNearEffectivePeriodList: null
       arriveTime: null
       arriveType: null
-      asnId: 1951491414151680
-      asnNo: ASN24101000079
+      asnId: 1979806189097472
+      asnNo: ASN24103000011
       asnStatus: CJ
       asnStatusName: 创建
       asnType: ZPCGDD
       asnTypeName: 赠品采购订单
-      buyer: 测试人员
+      buyer: ''
       carrierName: null
       code: 0
       coldChainFlag: false
       cooperativePartnerName: 青岛医药科技集团有限公司
-      createTime: '2024-10-10 13:59:43'
+      createTime: '2024-10-30 14:03:00'
       creator: lhb001
       creatorName: 李鸿宾
       customerName: null
       ejectConfirmationBox: false
-      erpOrderNo: autotest910774
-      inOrderNo: R20241010000060
+      erpOrderNo: autotest821566
+      inOrderNo: R20241025000004
       msg: null
       orderSource: WMS
       orderSourceName: WMS
@@ -1135,7 +1135,7 @@ rk_order_data:
       waitRecList:
       - alreadyRecQty: 0.0
         amount: 1.111
-        asnDtId: 1951491414168064
+        asnDtId: 1979806189130240
         bigPackQty: 60
         bigVolume: 1.0
         bigWeight: 1.0
@@ -1178,7 +1178,7 @@ rk_order_data:
         isDrugSuperCode: 1
         length: 1.0
         middlePackQty: 1
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionBatchDisabled: true
         productionDate: null
         productionDateDisabled: false
@@ -1200,44 +1200,44 @@ rk_order_data:
       wmsBusinessType: TO_B
       wmsBusinessTypeName: ToB
   asn_id:
-    CGDDZP_asn_id: 1951491179352576
-    CGDD_asn_id: 1951491203404288
-    DBRKD_asn_id: 1951491226440192
-    DBTCD_asn_id: 1951491249508864
-    LYTHD_asn_id: 1951491277722112
-    PFXSTHD_asn_id: 1951491301347840
-    TCSQDZP_asn_id: 1951491323564544
-    TCSQD_asn_id: 1951491347386880
-    WDTKSQD_asn_id: 1951491368833536
-    YCRKD_asn_id: 1951491391689216
-    ZPCGDD_asn_id: 1951491414151680
+    CGDDZP_asn_id: 1979805925642752
+    CGDD_asn_id: 1979805951152640
+    DBRKD_asn_id: 1979805977940480
+    DBTCD_asn_id: 1979806004498944
+    LYTHD_asn_id: 1979806030385664
+    PFXSTHD_asn_id: 1979806056485376
+    TCSQDZP_asn_id: 1979806081864192
+    TCSQD_asn_id: 1979806109651456
+    WDTKSQD_asn_id: 1979806135652864
+    YCRKD_asn_id: 1979806161687040
+    ZPCGDD_asn_id: 1979806189097472
   asn_no:
-    CGDDZP_asn_no: ASN24101000069
-    CGDD_asn_no: ASN24101000070
-    DBRKD_asn_no: ASN24101000071
-    DBTCD_asn_no: ASN24101000072
-    LYTHD_asn_no: ASN24101000073
-    PFXSTHD_asn_no: ASN24101000074
-    TCSQDZP_asn_no: ASN24101000075
-    TCSQD_asn_no: ASN24101000076
-    WDTKSQD_asn_no: ASN24101000077
-    YCRKD_asn_no: ASN24101000078
-    ZPCGDD_asn_no: ASN24101000079
+    CGDDZP_asn_no: ASN24103000001
+    CGDD_asn_no: ASN24103000002
+    DBRKD_asn_no: ASN24103000003
+    DBTCD_asn_no: ASN24103000004
+    LYTHD_asn_no: ASN24103000005
+    PFXSTHD_asn_no: ASN24103000006
+    TCSQDZP_asn_no: ASN24103000007
+    TCSQD_asn_no: ASN24103000008
+    WDTKSQD_asn_no: ASN24103000009
+    YCRKD_asn_no: ASN24103000010
+    ZPCGDD_asn_no: ASN24103000011
   check_data:
     CGDDZP_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000069
+      batchNo: P24103000001
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000069
+        asnNo: ASN24103000001
         batchAsnNo: null
-        batchNo: P24101000069
-        instoreDate: '2024-10-10'
+        batchNo: P24103000001
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1294,9 +1294,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491829207552
-      qcId: 1951491829158400
-      qcNo: QC24101000069
+      qcDtId: 1979806653288960
+      qcId: 1979806653272576
+      qcNo: QC24103000001
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1326,18 +1326,18 @@ rk_order_data:
       zoneCode: XNKQ
     CGDD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000070
+      batchNo: P24103000002
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000070
+        asnNo: ASN24103000002
         batchAsnNo: null
-        batchNo: P24101000070
-        instoreDate: '2024-10-10'
+        batchNo: P24103000002
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1394,9 +1394,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491831943680
-      qcId: 1951491831894528
-      qcNo: QC24101000070
+      qcDtId: 1979806659973632
+      qcId: 1979806659891712
+      qcNo: QC24103000002
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1426,18 +1426,18 @@ rk_order_data:
       zoneCode: XNKQ
     DBRKD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000071
+      batchNo: P24103000003
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000071
+        asnNo: ASN24103000003
         batchAsnNo: null
-        batchNo: P24101000071
-        instoreDate: '2024-10-10'
+        batchNo: P24103000003
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1494,9 +1494,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491834270208
-      qcId: 1951491834221056
-      qcNo: QC24101000071
+      qcDtId: 1979806667543040
+      qcId: 1979806667461120
+      qcNo: QC24103000003
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1526,18 +1526,18 @@ rk_order_data:
       zoneCode: XNKQ
     DBTCD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000072
+      batchNo: P24103000004
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000072
+        asnNo: ASN24103000004
         batchAsnNo: null
-        batchNo: P24101000072
-        instoreDate: '2024-10-10'
+        batchNo: P24103000004
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1594,9 +1594,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491837104640
-      qcId: 1951491837055488
-      qcNo: QC24101000072
+      qcDtId: 1979806672769536
+      qcId: 1979806672720384
+      qcNo: QC24103000004
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1626,18 +1626,18 @@ rk_order_data:
       zoneCode: XNKQ
     LYTHD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000073
+      batchNo: P24103000005
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000073
+        asnNo: ASN24103000005
         batchAsnNo: null
-        batchNo: P24101000073
-        instoreDate: '2024-10-10'
+        batchNo: P24103000005
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1694,9 +1694,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491838988800
-      qcId: 1951491838956032
-      qcNo: QC24101000073
+      qcDtId: 1979806679765504
+      qcId: 1979806679732736
+      qcNo: QC24103000005
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1726,18 +1726,18 @@ rk_order_data:
       zoneCode: XNKQ
     PFXSTHD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000074
+      batchNo: P24103000006
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000074
+        asnNo: ASN24103000006
         batchAsnNo: null
-        batchNo: P24101000074
-        instoreDate: '2024-10-10'
+        batchNo: P24103000006
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1794,9 +1794,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491841331712
-      qcId: 1951491841315328
-      qcNo: QC24101000074
+      qcDtId: 1979806684041728
+      qcId: 1979806683992576
+      qcNo: QC24103000006
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1826,18 +1826,18 @@ rk_order_data:
       zoneCode: XNKQ
     TCSQDZP_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000075
+      batchNo: P24103000007
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000075
+        asnNo: ASN24103000007
         batchAsnNo: null
-        batchNo: P24101000075
-        instoreDate: '2024-10-10'
+        batchNo: P24103000007
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1894,9 +1894,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491844379136
-      qcId: 1951491844329984
-      qcNo: QC24101000075
+      qcDtId: 1979806691021312
+      qcId: 1979806690955776
+      qcNo: QC24103000007
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -1926,18 +1926,18 @@ rk_order_data:
       zoneCode: XNKQ
     TCSQD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000076
+      batchNo: P24103000008
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000076
+        asnNo: ASN24103000008
         batchAsnNo: null
-        batchNo: P24101000076
-        instoreDate: '2024-10-10'
+        batchNo: P24103000008
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -1994,9 +1994,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491846820352
-      qcId: 1951491846771200
-      qcNo: QC24101000076
+      qcDtId: 1979806696100352
+      qcId: 1979806696051200
+      qcNo: QC24103000008
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -2026,18 +2026,18 @@ rk_order_data:
       zoneCode: XNKQ
     WDTKSQD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000077
+      batchNo: P24103000009
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000077
+        asnNo: ASN24103000009
         batchAsnNo: null
-        batchNo: P24101000077
-        instoreDate: '2024-10-10'
+        batchNo: P24103000009
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -2094,9 +2094,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491849097728
-      qcId: 1951491849048576
-      qcNo: QC24101000077
+      qcDtId: 1979806700982784
+      qcId: 1979806700933632
+      qcNo: QC24103000009
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -2126,18 +2126,18 @@ rk_order_data:
       zoneCode: XNKQ
     YCRKD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000078
+      batchNo: P24103000010
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000078
+        asnNo: ASN24103000010
         batchAsnNo: null
-        batchNo: P24101000078
-        instoreDate: '2024-10-10'
+        batchNo: P24103000010
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -2194,9 +2194,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491851047424
-      qcId: 1951491851031040
-      qcNo: QC24101000078
+      qcDtId: 1979806706766336
+      qcId: 1979806706717184
+      qcNo: QC24103000010
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -2226,18 +2226,18 @@ rk_order_data:
       zoneCode: XNKQ
     ZPCGDD_check_data:
     - alreadyQcQty: 0.0
-      batchNo: P24101000079
+      batchNo: P24103000011
       checkResult: null
       commonInvBatch:
-        asnNo: ASN24101000079
+        asnNo: ASN24103000011
         batchAsnNo: null
-        batchNo: P24101000079
-        instoreDate: '2024-10-10'
+        batchNo: P24103000011
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -2294,9 +2294,9 @@ rk_order_data:
       perQty: 60
       printCount: null
       productFormType: YP
-      qcDtId: 1951491853373952
-      qcId: 1951491853324800
-      qcNo: QC24101000079
+      qcDtId: 1979806710682112
+      qcId: 1979806710632960
+      qcNo: QC24103000011
       qcQty: 1.111
       recLotId: null
       recQty: 1.111
@@ -2325,17 +2325,17 @@ rk_order_data:
       wholePieceQty: 0
       zoneCode: XNKQ
   check_id:
-    CGDDZP_check_id: '1951491829158400'
-    CGDD_check_id: '1951491831894528'
-    DBRKD_check_id: '1951491834221056'
-    DBTCD_check_id: '1951491837055488'
-    LYTHD_check_id: '1951491838956032'
-    PFXSTHD_check_id: '1951491841315328'
-    TCSQDZP_check_id: '1951491844329984'
-    TCSQD_check_id: '1951491846771200'
-    WDTKSQD_check_id: '1951491849048576'
-    YCRKD_check_id: '1951491851031040'
-    ZPCGDD_check_id: '1951491853324800'
+    CGDDZP_check_id: '1979806653272576'
+    CGDD_check_id: '1979806659891712'
+    DBRKD_check_id: '1979806667461120'
+    DBTCD_check_id: '1979806672720384'
+    LYTHD_check_id: '1979806679732736'
+    PFXSTHD_check_id: '1979806683992576'
+    TCSQDZP_check_id: '1979806690955776'
+    TCSQD_check_id: '1979806696051200'
+    WDTKSQD_check_id: '1979806700933632'
+    YCRKD_check_id: '1979806706717184'
+    ZPCGDD_check_id: '1979806710632960'
   order_data:
     CGDDZP_asn_id:
       actualRecQty: null
@@ -2501,9 +2501,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483034784257'
-      inOrderId: 1951483034735104
-      inOrderNo: R20241010000064
+      inOrderDtIdList: '1972562409017856'
+      inOrderId: 1972562408854016
+      inOrderNo: R20241025000008
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -2516,7 +2516,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest369025
+      origNo: autotest633005
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -2543,7 +2543,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -2723,9 +2723,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951482922586625'
-      inOrderId: 1951482922537472
-      inOrderNo: R20241010000059
+      inOrderDtIdList: '1972562282877441'
+      inOrderId: 1972562282828288
+      inOrderNo: R20241025000003
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -2738,7 +2738,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest727235
+      origNo: autotest609224
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -2765,7 +2765,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -2945,9 +2945,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483076268546'
-      inOrderId: 1951483076219392
-      inOrderNo: R20241010000066
+      inOrderDtIdList: '1972562459578882'
+      inOrderId: 1972562459529728
+      inOrderNo: R20241025000010
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -2960,7 +2960,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest197597
+      origNo: autotest632665
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -2987,7 +2987,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -3167,9 +3167,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483098190336'
-      inOrderId: 1951483098141184
-      inOrderNo: R20241010000067
+      inOrderDtIdList: '1972562484220417'
+      inOrderId: 1972562484171264
+      inOrderNo: R20241025000011
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -3182,7 +3182,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest309797
+      origNo: autotest648783
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -3209,7 +3209,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -3389,9 +3389,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483118965250'
-      inOrderId: 1951483118932480
-      inOrderNo: R20241010000068
+      inOrderDtIdList: '1972562509222402'
+      inOrderId: 1972562509156864
+      inOrderNo: R20241025000012
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -3404,7 +3404,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest717135
+      origNo: autotest260173
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -3431,7 +3431,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -3611,9 +3611,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483014976001'
-      inOrderId: 1951483014926848
-      inOrderNo: R20241010000063
+      inOrderDtIdList: '1972562383393281'
+      inOrderId: 1972562383327744
+      inOrderNo: R20241025000007
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -3626,7 +3626,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest538540
+      origNo: autotest816032
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -3653,7 +3653,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -3833,9 +3833,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483055395328'
-      inOrderId: 1951483055297024
-      inOrderNo: R20241010000065
+      inOrderDtIdList: '1972562433643009'
+      inOrderId: 1972562433593856
+      inOrderNo: R20241025000009
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -3848,7 +3848,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest879572
+      origNo: autotest230947
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -3875,7 +3875,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -4055,9 +4055,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951482970083841'
-      inOrderId: 1951482970034688
-      inOrderNo: R20241010000061
+      inOrderDtIdList: '1972562333389314'
+      inOrderId: 1972562333291008
+      inOrderNo: R20241025000005
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -4070,7 +4070,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest158738
+      origNo: autotest695964
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -4097,7 +4097,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -4277,9 +4277,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951482994004481'
-      inOrderId: 1951482993955328
-      inOrderNo: R20241010000062
+      inOrderDtIdList: '1972562358211073'
+      inOrderId: 1972562358145536
+      inOrderNo: R20241025000006
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -4292,7 +4292,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest508203
+      origNo: autotest265563
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -4319,7 +4319,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -4499,9 +4499,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951483140772353'
-      inOrderId: 1951483140723200
-      inOrderNo: R20241010000069
+      inOrderDtIdList: '1972562533650946'
+      inOrderId: 1972562533601792
+      inOrderNo: R20241025000013
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -4514,7 +4514,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest980411
+      origNo: autotest126534
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -4541,7 +4541,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -4721,9 +4721,9 @@ rk_order_data:
       height: 1.0
       id: null
       inOrderDtId: null
-      inOrderDtIdList: '1951482944229889'
-      inOrderId: 1951482944180736
-      inOrderNo: R20241010000060
+      inOrderDtIdList: '1972562307961345'
+      inOrderId: 1972562307895808
+      inOrderNo: R20241025000004
       inOrderQty: null
       invalidDate: null
       invalidDateDisabled: false
@@ -4736,7 +4736,7 @@ rk_order_data:
       optimistic: null
       orgId: null
       orgName: 零售事业部
-      origNo: autotest910774
+      origNo: autotest821566
       origPurchaseOrderNo: CGDD-auto-01
       origRowNo: null
       originalBatchNo: null
@@ -4763,7 +4763,7 @@ rk_order_data:
       skuCode: M737217
       skuId: 1870783752016384
       sourceInvalidDate: 2024-12
-      sourceProductionBatch: '20241010001'
+      sourceProductionBatch: '20241025001'
       sourceProductionDate: 2024-01
       subPackagingEnterprise: null
       supplierId: null
@@ -4780,46 +4780,45 @@ rk_order_data:
       wholePieceQty: null
       width: 1.0
   order_id:
-    CGDDZP_order_id: 1951490921173504
-    CGDD_order_id: 1951490810483200
-    DBRKD_order_id: 1951490962575872
-    DBTCD_order_id: 1951490982875648
-    LYTHD_order_id: 1951491002323456
-    PFXSTHD_order_id: 1951490898498048
-    TCSQDZP_order_id: 1951490942145024
-    TCSQD_order_id: 1951490857259520
-    WDTKSQD_order_id: 1951490876920320
-    YCRKD_order_id: 1951491021476352
-    ZPCGDD_order_id: 1951490835321344
+    CGDDZP_order_id: 1979805619753472
+    CGDD_order_id: 1979805483127296
+    DBRKD_order_id: 1979805670232576
+    DBTCD_order_id: 1979805695054336
+    LYTHD_order_id: 1979805727134208
+    PFXSTHD_order_id: 1979805592932864
+    TCSQDZP_order_id: 1979805645099520
+    TCSQD_order_id: 1979805537096192
+    WDTKSQD_order_id: 1979805566456320
+    YCRKD_order_id: 1979805751415296
+    ZPCGDD_order_id: 1979805509865984
   order_no:
-    CGDDZP_order_no: autotest876461
-    CGDD_order_no: autotest170279
-    DBRKD_order_no: autotest294143
-    DBTCD_order_no: autotest640171
-    LYTHD_order_no: autotest969317
-    PFXSTHD_order_no: autotest463012
-    TCSQDZP_order_no: autotest435175
-    TCSQD_order_no: autotest503046
-    WDTKSQD_order_no: autotest740133
-    YCRKD_order_no: autotest892522
-    ZPCGDD_order_no: autotest880243
+    CGDDZP_order_no: autotest367857
+    CGDD_order_no: autotest574013
+    DBRKD_order_no: autotest165542
+    DBTCD_order_no: autotest358997
+    LYTHD_order_no: autotest937792
+    PFXSTHD_order_no: autotest921217
+    TCSQDZP_order_no: autotest774068
+    TCSQD_order_no: autotest700645
+    WDTKSQD_order_no: autotest530287
+    YCRKD_order_no: autotest586684
+    ZPCGDD_order_no: autotest952265
   put_shelf_data:
-    CGDDZP_put_shelf_data: autotest714237
     CGDD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000070
+      batchNo: P24103000002
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000070
+        asnNo: ASN24103000002
         batchAsnNo: null
-        batchNo: P24101000070
-        instoreDate: '2024-10-10'
+        batchNo: P24103000002
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -4875,13 +4874,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492851732992
+      putShelfId: 1979807760486912
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493319053824'
-      putShelfTaskId: 1951493319004672
-      putShelfTaskNo: SJ24101000051
+      putShelfTaskDtIdList: '1979808291328512'
+      putShelfTaskId: 1979808291082752
+      putShelfTaskNo: SJ24103000001
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -4889,7 +4888,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000560'
+      serialNumber: '112000002410001816'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -4910,18 +4909,18 @@ rk_order_data:
     DBRKD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000071
+      batchNo: P24103000003
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000071
+        asnNo: ASN24103000003
         batchAsnNo: null
-        batchNo: P24101000071
-        instoreDate: '2024-10-10'
+        batchNo: P24103000003
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -4977,13 +4976,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492860482048
+      putShelfId: 1979807768941056
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493325820416'
-      putShelfTaskId: 1951493325787648
-      putShelfTaskNo: SJ24101000052
+      putShelfTaskDtIdList: '1979808299782656'
+      putShelfTaskId: 1979808299749888
+      putShelfTaskNo: SJ24103000002
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -4991,7 +4990,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000562'
+      serialNumber: '112000002410001818'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5012,18 +5011,18 @@ rk_order_data:
     DBTCD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000072
+      batchNo: P24103000004
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000072
+        asnNo: ASN24103000004
         batchAsnNo: null
-        batchNo: P24101000072
-        instoreDate: '2024-10-10'
+        batchNo: P24103000004
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5079,13 +5078,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492869575168
+      putShelfId: 1979807777985024
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493332308480'
-      putShelfTaskId: 1951493332292096
-      putShelfTaskNo: SJ24101000053
+      putShelfTaskDtIdList: '1979808311185920'
+      putShelfTaskId: 1979808311136768
+      putShelfTaskNo: SJ24103000003
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5093,7 +5092,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000564'
+      serialNumber: '112000002410001820'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5114,18 +5113,18 @@ rk_order_data:
     LYTHD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000073
+      batchNo: P24103000005
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000073
+        asnNo: ASN24103000005
         batchAsnNo: null
-        batchNo: P24101000073
-        instoreDate: '2024-10-10'
+        batchNo: P24103000005
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5181,13 +5180,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492878176768
+      putShelfId: 1979807786471936
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493338993152'
-      putShelfTaskId: 1951493338944000
-      putShelfTaskNo: SJ24101000054
+      putShelfTaskDtIdList: '1979808320688640'
+      putShelfTaskId: 1979808320475648
+      putShelfTaskNo: SJ24103000004
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5195,7 +5194,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000566'
+      serialNumber: '112000002410001822'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5216,18 +5215,18 @@ rk_order_data:
     PFXSTHD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000074
+      batchNo: P24103000006
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000074
+        asnNo: ASN24103000006
         batchAsnNo: null
-        batchNo: P24101000074
-        instoreDate: '2024-10-10'
+        batchNo: P24103000006
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5283,13 +5282,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492886729216
+      putShelfId: 1979807796318720
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493346677248'
-      putShelfTaskId: 1951493346628096
-      putShelfTaskNo: SJ24101000055
+      putShelfTaskDtIdList: '1979808330994176'
+      putShelfTaskId: 1979808330928640
+      putShelfTaskNo: SJ24103000005
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5297,7 +5296,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000568'
+      serialNumber: '112000002410001824'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5315,22 +5314,21 @@ rk_order_data:
       whId: 1
       wholePieceQty: 0
       wmsBusinessType: null
-    TCSQDZP_put_shelf_data: autotest309530
     TCSQD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000076
+      batchNo: P24103000008
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000076
+        asnNo: ASN24103000008
         batchAsnNo: null
-        batchNo: P24101000076
-        instoreDate: '2024-10-10'
+        batchNo: P24103000008
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5386,13 +5384,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492897919488
+      putShelfId: 1979807811703296
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493353132544'
-      putShelfTaskId: 1951493353083392
-      putShelfTaskNo: SJ24101000056
+      putShelfTaskDtIdList: '1979808340005376'
+      putShelfTaskId: 1979808339956224
+      putShelfTaskNo: SJ24103000006
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5400,7 +5398,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000572'
+      serialNumber: '112000002410001828'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5421,18 +5419,18 @@ rk_order_data:
     WDTKSQD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000077
+      batchNo: P24103000009
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000077
+        asnNo: ASN24103000009
         batchAsnNo: null
-        batchNo: P24101000077
-        instoreDate: '2024-10-10'
+        batchNo: P24103000009
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5488,13 +5486,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492906701312
+      putShelfId: 1979807820976640
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493359669760'
-      putShelfTaskId: 1951493359620608
-      putShelfTaskNo: SJ24101000057
+      putShelfTaskDtIdList: '1979808348443136'
+      putShelfTaskId: 1979808348361216
+      putShelfTaskNo: SJ24103000007
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5502,7 +5500,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000574'
+      serialNumber: '112000002410001830'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5523,18 +5521,18 @@ rk_order_data:
     YCRKD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000078
+      batchNo: P24103000010
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000078
+        asnNo: ASN24103000010
         batchAsnNo: null
-        batchNo: P24101000078
-        instoreDate: '2024-10-10'
+        batchNo: P24103000010
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5590,13 +5588,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492916023808
+      putShelfId: 1979807830430208
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493365518848'
-      putShelfTaskId: 1951493365502464
-      putShelfTaskNo: SJ24101000058
+      putShelfTaskDtIdList: '1979808357618176'
+      putShelfTaskId: 1979808357601792
+      putShelfTaskNo: SJ24103000008
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5604,7 +5602,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000576'
+      serialNumber: '112000002410001832'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5625,18 +5623,18 @@ rk_order_data:
     ZPCGDD_put_shelf_data:
     - alreadyPutShelfQty: 0.0
       alreadyWholePutShelfQty: null
-      batchNo: P24101000079
+      batchNo: P24103000011
       commodityQty: 1.111
       commonInvBatch:
-        asnNo: ASN24101000079
+        asnNo: ASN24103000011
         batchAsnNo: null
-        batchNo: P24101000079
-        instoreDate: '2024-10-10'
+        batchNo: P24103000011
+        instoreDate: '2024-10-30'
         invalidDate: 2024-12
         packQty: null
         perQty: 60
         po: null
-        productionBatch: '20241010001'
+        productionBatch: '20241025001'
         productionDate: 2024-01
         spellBoxSign: ''
         sterileInvaliDate: ''
@@ -5692,13 +5690,13 @@ rk_order_data:
       ownerName: 智汇奇策科技有限公司
       packageAttr: LH
       perQty: 60
-      productionBatch: '20241010001'
+      productionBatch: '20241025001'
       putShelfDtId: null
-      putShelfId: 1951492924936704
+      putShelfId: 1979807840260608
       putShelfQty: 1.111
-      putShelfTaskDtIdList: '1951493372203520'
-      putShelfTaskId: 1951493372154368
-      putShelfTaskNo: SJ24101000059
+      putShelfTaskDtIdList: '1979808366121472'
+      putShelfTaskId: 1979808366072320
+      putShelfTaskNo: SJ24103000009
       recommendLotCode: null
       recommendLotId: 1784448505156096
       recommendLotName: LH0009
@@ -5706,7 +5704,7 @@ rk_order_data:
       remark: null
       scatteredQty: 1.111
       seq: '1'
-      serialNumber: '112000002410000578'
+      serialNumber: '112000002410001834'
       skuCode: M737217
       skuId: 1870783752016384
       sourceContainerNo: null
@@ -5725,14 +5723,119 @@ rk_order_data:
       wholePieceQty: 0
       wmsBusinessType: null
   put_shelf_id:
-    CGDDZP_put_shelf_id: '1951492842295808'
-    CGDD_put_shelf_id: '1951492851732992'
-    DBRKD_put_shelf_id: '1951492860482048'
-    DBTCD_put_shelf_id: '1951492869575168'
-    LYTHD_put_shelf_id: '1951492878176768'
-    PFXSTHD_put_shelf_id: '1951492886729216'
-    TCSQDZP_put_shelf_id: '1951492888891904'
-    TCSQD_put_shelf_id: '1951492897919488'
-    WDTKSQD_put_shelf_id: '1951492906701312'
-    YCRKD_put_shelf_id: '1951492916023808'
-    ZPCGDD_put_shelf_id: '1951492924936704'
+    CGDDZP_put_shelf_id: '1979807750902272'
+    CGDD_put_shelf_id: '1979807760486912'
+    DBRKD_put_shelf_id: '1979807768941056'
+    DBTCD_put_shelf_id: '1979807777985024'
+    LYTHD_put_shelf_id: '1979807786471936'
+    PFXSTHD_put_shelf_id: '1979807796318720'
+    TCSQDZP_put_shelf_id: '1979807799955968'
+    TCSQD_put_shelf_id: '1979807811703296'
+    WDTKSQD_put_shelf_id: '1979807820976640'
+    YCRKD_put_shelf_id: '1979807830430208'
+    ZPCGDD_put_shelf_id: '1979807840260608'
+  serial_number:
+    CGDDZP_serial_number: '112000002410001584'
+    CGDD_serial_number: '112000002410001586'
+    DBRKD_serial_number: '112000002410001588'
+    DBTCD_serial_number: '112000002410001590'
+    LYTHD_serial_number: '112000002410001592'
+    PFXSTHD_serial_number: '112000002410001594'
+    TCSQDZP_serial_number: '112000002410001596'
+    TCSQD_serial_number: '112000002410001598'
+    WDTKSQD_serial_number: '112000002410001600'
+    YCRKD_serial_number: '112000002410001602'
+    ZPCGDD_serial_number: '112000002410001604'
+  tsdd_data:
+    data:
+      alreadyRecList: null
+      asnNo: null
+      collectDrugSupervisionCode: false
+      inOrderDtList:
+      - actualRecQty: 1001.0
+        alreadyRecQty: 0.0
+        alreadyRecVarietiesQty: null
+        amount: 48.0
+        backQty: 0.0
+        bigPackQty: 105
+        bigVolume: 30.0
+        bigWeight: 1.0
+        buyer: 李鸿宾
+        categoryName: null
+        centralizedPurchaseAssignQty: 0.0
+        commonSku:
+          approvalNumber: 国药准字氨糖
+          barcode: '9093281111'
+          brandName: ''
+          drugForm: _
+          instrumentModel: null
+          mainUnit: 青岛海尔科技有限公司
+          mfg: null
+          mfgName: 青岛海尔生物医药科技有限公司
+          mnemonicCode: ''
+          originCountry: 山东省青岛市市北区
+          ownerName: null
+          perQty: null
+          permitHolder: ''
+          skuBigCategoryCode: null
+          skuBigCategoryName: null
+          skuCategoryCode: null
+          skuCategoryId: null
+          skuCategoryName: null
+          skuCode: M12321321
+          skuId: 1867818750628352
+          skuName: 氨糖
+          spec: 50g
+          tempControl: CW
+          tempControlName: 常温
+          tempMax: null
+          tempMin: null
+          tradeName: 氨糖
+          validityDay: null
+        companyCode: ZHQC
+        cooperativePartnerName: null
+        createTime: '2024-10-14 11:37:05'
+        createTimeStr: '2024-10-14 11:37:05'
+        creator: lhb001
+        creatorName: 李鸿宾
+        erpOrderNo: null
+        extractableQty: null
+        extractedQty: null
+        height: 5.0
+        id: '1957013500793345'
+        inOrderDtId: 1957013500793345
+        inOrderDtIdList: null
+        inOrderId: 1957013500547584
+        inOrderNo: null
+        inOrderQty: 1001.0
+        invalidDate: null
+        invalidDateDisabled: false
+        invalidDateYm: 2024-12
+        invalidDateYmDisabled: true
+        key: '1957013500793345'
+        length: 2.0
+        manageValidDay: 0
+        middlePackQty: 11
+        optimistic: 0
+        orgId: 1770560509055488
+        orgName: 零售事业部
+        origNo: null
+        origPurchaseOrderNo: null
+        origRowNo: 1
+        originalBatchNo: null
+  tsdd_no:
+    data: auto-tsd_358769
+  upload_data:
+    CGDDZP_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/b6768b70-b12f-430b-92d0-34a8f1d0439e.png
+    CGDD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/993893af-b91f-4d9e-a39e-ffa1a7403bad.png
+    DBRKD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/107208df-de93-4432-b3eb-80f17d2c3f6e.png
+    DBTCD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/a7121c82-af4a-416a-a4b2-02a4a7b273ac.png
+    LYTHD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/31d2e826-f5c2-4142-a3e3-2f7ec18a67cd.png
+    PFXSTHD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/7ec9c499-4b4d-453b-a3d8-799cdc141c3d.png
+    TCSQDZP_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/d9956931-bd3b-48d3-a3ac-44adf88822c6.png
+    TCSQD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/be1d4267-b4b2-4248-ac9b-eff3a2f2a2fd.png
+    WDTKSQD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/3f57444a-cfd7-4e44-8e6c-563dd35f03af.png
+    YCRKD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/74c0454d-bb5d-4a95-839f-cb30b8f1b548.png
+    ZPCGDD_upload_data: http://192.168.111.232:17777/fms/file/downloadObsFile/2171369e-837e-414c-a173-d4c751c05f79.png
+  wait_center_control:
+    data: '1978524616364544'
